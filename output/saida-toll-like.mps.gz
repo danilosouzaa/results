@@ -1,0 +1,91 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Sep 21 2020 
+
+command line - ./cbc input/toll-like.mps.gz sec 360 MaxN 0 solve (default strategy 1)
+At line 1 NAME          toll-like
+At line 2 ROWS
+At line 4412 COLUMNS
+At line 19843 RHS
+At line 22154 BOUNDS
+At line 25038 ENDATA
+Problem toll-like has 4408 rows, 2883 columns and 13224 elements
+Coin0008I toll-like read with 0 errors
+seconds was changed from 1e+100 to 360
+maxNodes was changed from 2147483647 to 0
+Continuous objective value is 0 - 0.28 seconds
+Cgl0004I processed model has 4408 rows, 2883 columns (2883 integer (2883 of which binary)) and 13224 elements
+Coin3009W Conflict graph built in 0.002 seconds, density: 0.017%
+Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
+Cutoff increment increased from 0.0001 to 0.9999
+Cbc0038I Initial state - 679 integers unsatisfied sum - 339.5
+Cbc0038I Pass   1: (0.52 seconds) suminf.  331.50000 (663) obj. 30.5 iterations 436
+Cbc0038I Pass   2: (0.54 seconds) suminf.  319.50000 (639) obj. 42.5 iterations 47
+Cbc0038I Pass   3: (0.56 seconds) suminf.  305.00000 (610) obj. 57 iterations 63
+Cbc0038I Pass   4: (0.58 seconds) suminf.  301.00000 (602) obj. 61 iterations 37
+Cbc0038I Pass   5: (0.60 seconds) suminf.  301.00000 (602) obj. 61 iterations 24
+Cbc0038I Pass   6: (0.62 seconds) suminf.  301.00000 (602) obj. 61 iterations 25
+Cbc0038I Pass   7: (0.67 seconds) suminf.  301.00000 (602) obj. 64 iterations 544
+Cbc0038I Pass   8: (0.73 seconds) suminf.  301.00000 (602) obj. 64 iterations 523
+Cbc0038I Pass   9: (0.75 seconds) suminf.  298.00000 (596) obj. 67 iterations 9
+Cbc0038I Pass  10: (0.77 seconds) suminf.  298.00000 (596) obj. 67 iterations 2
+Cbc0038I Pass  11: (0.79 seconds) suminf.  298.00000 (596) obj. 67 iterations 30
+Cbc0038I Pass  12: (0.85 seconds) suminf.  295.50000 (591) obj. 69 iterations 535
+Cbc0038I Pass  13: (0.90 seconds) suminf.  295.50000 (591) obj. 69 iterations 492
+Cbc0038I Pass  14: (0.92 seconds) suminf.  295.50000 (591) obj. 69 iterations 35
+Cbc0038I Pass  15: (0.99 seconds) suminf.  294.50000 (589) obj. 71 iterations 544
+Cbc0038I Pass  16: (1.04 seconds) suminf.  294.50000 (589) obj. 71 iterations 539
+Cbc0038I Pass  17: (1.06 seconds) suminf.  292.50000 (585) obj. 73 iterations 22
+Cbc0038I Pass  18: (1.08 seconds) suminf.  292.50000 (585) obj. 73 iterations 15
+Cbc0038I Pass  19: (1.11 seconds) suminf.  292.50000 (585) obj. 73 iterations 45
+Cbc0038I Pass  20: (1.17 seconds) suminf.  292.50000 (585) obj. 73 iterations 542
+Cbc0038I Pass  21: (1.21 seconds) suminf.  292.50000 (585) obj. 74 iterations 351
+Cbc0038I Pass  22: (1.27 seconds) suminf.  292.50000 (585) obj. 74 iterations 549
+Cbc0038I Pass  23: (1.29 seconds) suminf.  291.50000 (583) obj. 75 iterations 38
+Cbc0038I Pass  24: (1.31 seconds) suminf.  291.50000 (583) obj. 75 iterations 41
+Cbc0038I Pass  25: (1.33 seconds) suminf.  291.50000 (583) obj. 75 iterations 19
+Cbc0038I Pass  26: (1.39 seconds) suminf.  291.50000 (583) obj. 76 iterations 497
+Cbc0038I Pass  27: (1.45 seconds) suminf.  291.50000 (583) obj. 76 iterations 506
+Cbc0038I Pass  28: (1.47 seconds) suminf.  290.50000 (581) obj. 77 iterations 44
+Cbc0038I Pass  29: (1.49 seconds) suminf.  290.50000 (581) obj. 77 iterations 47
+Cbc0038I Pass  30: (1.51 seconds) suminf.  290.50000 (581) obj. 77 iterations 32
+Cbc0038I No solution found this major pass
+Cbc0038I Before mini branch and bound, 2127 integers at bound fixed and 0 continuous
+Cbc0038I Mini branch and bound did not improve solution (1.63 seconds)
+Cbc0038I After 1.63 seconds - Feasibility pump exiting - took 1.17 seconds
+Cbc0031I 601 added rows had average density of 7.5873544
+Cbc0013I At root node, 601 cuts changed objective from 0 to 447.0704 in 100 passes
+Cbc0014I Cut generator 0 (Probing) - 11 row cuts average 13.0 elements, 0 column cuts (42 active)  in 0.515 seconds - new frequency is -100
+Cbc0014I Cut generator 1 (Gomory) - 59011 row cuts average 23.1 elements, 0 column cuts (0 active)  in 8.100 seconds - new frequency is 1
+Cbc0014I Cut generator 2 (Knapsack) - 15 row cuts average 2.7 elements, 0 column cuts (0 active)  in 46.719 seconds - new frequency is -100
+Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.004 seconds - new frequency is -100
+Cbc0014I Cut generator 4 (OddWheel) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.006 seconds - new frequency is -100
+Cbc0014I Cut generator 5 (MixedIntegerRounding2) - 31 row cuts average 14.5 elements, 0 column cuts (0 active)  in 0.607 seconds - new frequency is -100
+Cbc0014I Cut generator 6 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.064 seconds - new frequency is -100
+Cbc0014I Cut generator 7 (TwoMirCuts) - 3993 row cuts average 15.5 elements, 0 column cuts (0 active)  in 1.093 seconds - new frequency is 1
+Cbc0014I Cut generator 8 (ZeroHalf) - 238 row cuts average 10.8 elements, 0 column cuts (0 active)  in 25.268 seconds - new frequency is -100
+Cbc0003I Exiting on maximum nodes
+Cbc0005I Partial search - best objective 1e+50 (best possible 447.0704), took 22026 iterations and 0 nodes (99.78 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 0 to 447.07
+Probing was tried 100 times and created 11 cuts of which 42 were active after adding rounds of cuts (0.515 seconds)
+Gomory was tried 100 times and created 59011 cuts of which 0 were active after adding rounds of cuts (8.100 seconds)
+Knapsack was tried 100 times and created 15 cuts of which 0 were active after adding rounds of cuts (46.719 seconds)
+Clique was tried 100 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.004 seconds)
+OddWheel was tried 100 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.006 seconds)
+MixedIntegerRounding2 was tried 100 times and created 31 cuts of which 0 were active after adding rounds of cuts (0.607 seconds)
+FlowCover was tried 100 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.064 seconds)
+TwoMirCuts was tried 100 times and created 3993 cuts of which 0 were active after adding rounds of cuts (1.093 seconds)
+ZeroHalf was tried 100 times and created 238 cuts of which 0 were active after adding rounds of cuts (25.268 seconds)
+
+Result - Stopped on node limit
+
+No feasible solution found
+Lower bound:                    447.070
+Enumerated nodes:               0
+Total iterations:               22026
+Time (CPU seconds):             99.93
+Time (Wallclock seconds):       101.93
+
+Total time (CPU seconds):       99.96   (Wallclock seconds):       101.96
+

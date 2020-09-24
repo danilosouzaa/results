@@ -1,0 +1,65 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Sep 21 2020 
+
+command line - ./cbc input/bab2.mps.gz sec 360 MaxN 0 solve (default strategy 1)
+At line 1 NAME          bab2
+At line 2 ROWS
+At line 17249 COLUMNS
+At line 2161818 RHS
+At line 2162872 BOUNDS
+At line 2310785 ENDATA
+Problem bab2 has 17245 rows, 147912 columns and 2027726 elements
+Coin0008I bab2 read with 0 errors
+seconds was changed from 1e+100 to 360
+maxNodes was changed from 2147483647 to 0
+Continuous objective value is -432166 - 93.89 seconds
+Cgl0003I 0 fixed, 0 tightened bounds, 1 strengthened rows, 22 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 1 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 1 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 1 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 1 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 1 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 1 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 1 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 1 strengthened rows, 0 substitutions
+Cgl0004I processed model has 15661 rows, 144969 columns (144969 integer (144969 of which binary)) and 1946756 elements
+Coin3009W Conflict graph built in 1.150 seconds, density: 0.011%
+Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
+Cbc0038I Initial state - 1069 integers unsatisfied sum - 338.448
+Cbc0038I Pass   1: (341.95 seconds) suminf.  189.53970 (829) obj. -383895 iterations 24824
+Cbc0038I Pass   2: (353.21 seconds) suminf.  169.12610 (822) obj. -373342 iterations 5045
+Cbc0038I Pass   3: (354.66 seconds) suminf.  167.32106 (828) obj. -371448 iterations 742
+Cbc0038I Pass   4: (355.19 seconds) suminf.  166.79085 (831) obj. -371057 iterations 157
+Cbc0038I Pass   5: (355.72 seconds) suminf.  166.31714 (831) obj. -370732 iterations 118
+Cbc0038I Pass   6: (358.61 seconds) suminf.  164.91728 (850) obj. -369843 iterations 1191
+Cbc0038I Pass   7: (359.33 seconds) suminf.  164.91728 (845) obj. -369829 iterations 288
+Cbc0038I Pass   8: (359.99 seconds) suminf.  164.91728 (845) obj. -369829 iterations 264
+Cbc0038I Pass   9: (362.50 seconds) suminf.  164.22981 (848) obj. -369109 iterations 1119
+Cbc0038I No solution found this major pass
+Cbc0038I After 362.50 seconds - Feasibility pump exiting - took 134.51 seconds
+Cbc0020I Exiting on maximum time
+Cbc0005I Partial search - best objective 1e+50 (best possible -406658.18), took 0 iterations and 0 nodes (362.83 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from -406658 to -406658
+Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+OddWheel was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+
+Result - Stopped on time limit
+
+No feasible solution found
+Lower bound:                    -406658.176
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             362.83
+Time (Wallclock seconds):       364.03
+
+Total time (CPU seconds):       364.64   (Wallclock seconds):       365.87
+

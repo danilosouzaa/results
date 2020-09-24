@@ -1,0 +1,72 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Sep 21 2020 
+
+command line - ./cbc input/neos-1171448.mps.gz sec 360 MaxN 0 solve (default strategy 1)
+At line 1 NAME          neos-1171448
+At line 2 ROWS
+At line 13210 COLUMNS
+At line 147529 RHS
+At line 158279 BOUNDS
+At line 160737 ENDATA
+Problem neos-1171448 has 13206 rows, 4914 columns and 131859 elements
+Coin0008I neos-1171448 read with 0 errors
+seconds was changed from 1e+100 to 360
+maxNodes was changed from 2147483647 to 0
+Continuous objective value is -309 - 3.55 seconds
+Cgl0003I 0 fixed, 0 tightened bounds, 2809 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 1819 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 534 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 16 strengthened rows, 0 substitutions
+Cgl0004I processed model has 12702 rows, 4914 columns (2457 integer (2457 of which binary)) and 135525 elements
+Coin3009W Conflict graph built in 0.006 seconds, density: 0.015%
+Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
+Cbc0038I Initial state - 66 integers unsatisfied sum - 21.3333
+Cbc0038I Pass   1: (8.04 seconds) suminf.    0.00000 (0) obj. -282 iterations 2335
+Cbc0038I Solution found of -282
+Cbc0038I Relaxing continuous gives -282
+Cbc0038I Before mini branch and bound, 2391 integers at bound fixed and 2374 continuous
+Cbc0038I Full problem 12702 rows 4914 columns, reduced to 183 rows 128 columns
+Cbc0038I Mini branch and bound improved solution from -282 to -301 (9.21 seconds)
+Cbc0038I Round again with cutoff of -301.8
+Cbc0038I Pass   2: (11.19 seconds) suminf.    6.06664 (19) obj. -301.8 iterations 2267
+Cbc0038I Pass   3: (11.89 seconds) suminf.    5.26670 (20) obj. -301.8 iterations 1304
+Cbc0038I Pass   4: (12.83 seconds) suminf.    0.00568 (3) obj. -301.8 iterations 1965
+Cbc0038I Pass   5: (13.13 seconds) suminf.    0.26837 (2) obj. -301.8 iterations 535
+Cbc0038I Pass   6: (13.32 seconds) suminf.    0.26837 (2) obj. -301.8 iterations 291
+Cbc0038I Pass   7: (13.55 seconds) suminf.    0.27004 (2) obj. -301.8 iterations 396
+Cbc0038I Pass   8: (17.68 seconds) suminf.    5.83048 (66) obj. -301.8 iterations 8648
+Cbc0038I Pass   9: (18.41 seconds) suminf.    0.33712 (35) obj. -301.8 iterations 1317
+Cbc0038I Pass  10: (19.19 seconds) suminf.    0.02218 (13) obj. -301.8 iterations 1483
+Cbc0038I Pass  11: (19.49 seconds) suminf.    0.00236 (3) obj. -301.8 iterations 633
+Cbc0038I Pass  12: (20.05 seconds) suminf.    0.26820 (5) obj. -301.8 iterations 1058
+Cbc0038I Pass  13: (20.25 seconds) suminf.    0.00054 (3) obj. -301.8 iterations 373
+Cbc0038I Rounding solution of -301.15 is better than previous of -301
+
+Cbc0038I After 20.25 seconds - Feasibility pump exiting with objective of -301.15 - took 13.64 seconds
+Cbc0012I Integer solution of -301.58 found by feasibility pump after 0 iterations and 0 nodes (26.49 seconds)
+Cbc0038I Full problem 12702 rows 4914 columns, reduced to 1203 rows 703 columns
+Cbc0012I Integer solution of -309 found by RINS after 0 iterations and 0 nodes (40.06 seconds)
+Cbc0001I Search completed - best objective -309, took 0 iterations and 0 nodes (40.12 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from -309 to -309
+Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+OddWheel was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+
+Result - Optimal solution found
+
+Objective value:                -309.00000000
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             52.80
+Time (Wallclock seconds):       53.02
+
+Total time (CPU seconds):       52.88   (Wallclock seconds):       53.10
+

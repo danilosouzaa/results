@@ -1,0 +1,43 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Sep 21 2020 
+
+command line - ./cbc input/neos-3754224-navua.mps.gz sec 360 MaxN 0 solve (default strategy 1)
+At line 1 NAME          neos-3754224-navua
+At line 2 ROWS
+At line 232391 COLUMNS
+At line 888846 RHS
+At line 896530 BOUNDS
+At line 1039594 ENDATA
+Problem neos-3754224-navua has 232387 rows, 150228 columns and 652974 elements
+Coin0008I neos-3754224-navua read with 0 errors
+seconds was changed from 1e+100 to 360
+maxNodes was changed from 2147483647 to 0
+Continuous objective value is 55467.2 - 15478.75 seconds
+Coin3009W Conflict graph built in 0.065 seconds, density: 0.000%
+Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
+Cbc0020I Exiting on maximum time
+Cbc0005I Partial search - best objective 1e+50 (best possible 55685.795), took 0 iterations and 0 nodes (18941.73 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 55685.8 to 55685.8
+Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+OddWheel was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+
+Result - Stopped on time limit
+
+No feasible solution found
+Lower bound:                    55685.795
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             18941.73
+Time (Wallclock seconds):       18947.55
+
+Total time (CPU seconds):       18942.49   (Wallclock seconds):       18948.33
+
