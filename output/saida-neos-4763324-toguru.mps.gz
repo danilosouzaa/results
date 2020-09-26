@@ -2,7 +2,7 @@ Welcome to the CBC MILP Solver
 Version: devel 
 Build Date: Sep 21 2020 
 
-command line - ./cbc input/neos-4763324-toguru.mps.gz sec 360 MaxN 0 solve (default strategy 1)
+command line - ./cbc input/neos-4763324-toguru.mps.gz sec 180 solve (default strategy 1)
 At line 1 NAME neos-4763324-toguru
 At line 2 ROWS
 At line 106958 COLUMNS
@@ -11,35 +11,19 @@ At line 427130 BOUNDS
 At line 480723 ENDATA
 Problem neos-4763324-toguru has 106954 rows, 53593 columns and 266805 elements
 Coin0008I neos-4763324-toguru read with 0 errors
-seconds was changed from 1e+100 to 360
-maxNodes was changed from 2147483647 to 0
-Continuous objective value is 1120.99 - 17.86 seconds
+seconds was changed from 1e+100 to 180
+Continuous objective value is 1120.99 - 17.90 seconds
 Cgl0004I processed model has 106723 rows, 53593 columns (53592 integer (53592 of which binary)) and 266574 elements
-Coin3009W Conflict graph built in 3.525 seconds, density: 0.109%
+Coin3009W Conflict graph built in 3.505 seconds, density: 0.109%
 Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
 Cbc0038I Initial state - 1563 integers unsatisfied sum - 232.946
-Cbc0038I Pass   1: (174.99 seconds) suminf.  155.59003 (852) obj. 7002.95 iterations 30488
-Cbc0038I Pass   2: (199.96 seconds) suminf.  100.65383 (489) obj. 8125.84 iterations 5606
-Cbc0038I Pass   3: (203.86 seconds) suminf.   56.33333 (169) obj. 8068.48 iterations 2248
-Cbc0038I Pass   4: (205.85 seconds) suminf.    0.00000 (0) obj. 8050.28 iterations 1651
-Cbc0038I Solution found of 8050.28
-Cbc0038I Relaxing continuous gives 8050.28
-Cbc0038I Before mini branch and bound, 51104 integers at bound fixed and 0 continuous
-Cbc0038I Full problem 106723 rows 53593 columns, reduced to 4930 rows 2469 columns
-Cbc0038I Mini branch and bound improved solution from 8050.28 to 2277.46 (232.61 seconds)
-Cbc0038I Round again with cutoff of 2161.82
-Cbc0038I Reduced cost fixing fixed 12 variables on major pass 2
-Cbc0038I Pass   5: (279.91 seconds) suminf.  179.96686 (1359) obj. 2161.82 iterations 6624
-Cbc0038I Pass   6: (305.33 seconds) suminf.  150.70116 (882) obj. 2161.82 iterations 6392
-Cbc0038I Pass   7: (335.65 seconds) suminf.   94.90066 (390) obj. 2161.82 iterations 8612
-Cbc0038I Pass   8: (356.52 seconds) suminf.   24.55885 (125) obj. 2161.82 iterations 6555
-Cbc0038I Pass   9: (360.82 seconds) suminf.   13.39850 (50) obj. 2161.82 iterations 1215
+Cbc0038I Pass   1: (175.75 seconds) suminf.  155.59003 (852) obj. 7002.95 iterations 30488
+Cbc0038I Pass   2: (200.63 seconds) suminf.  100.65383 (489) obj. 8125.84 iterations 5606
 Cbc0038I No solution found this major pass
-Cbc0038I After 360.82 seconds - Feasibility pump exiting with objective of 2277.46 - took 331.02 seconds
-Cbc0012I Integer solution of 2277.4644 found by feasibility pump after 0 iterations and 0 nodes (360.91 seconds)
+Cbc0038I After 200.64 seconds - Feasibility pump exiting - took 170.74 seconds
 Cbc0020I Exiting on maximum time
-Cbc0005I Partial search - best objective 2277.4644 (best possible 1120.9861), took 0 iterations and 0 nodes (361.11 seconds)
-Cbc0035I Maximum depth 0, 9 variables fixed on reduced cost
+Cbc0005I Partial search - best objective 1e+50 (best possible 1120.9861), took 0 iterations and 0 nodes (200.85 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
 Cuts at root node changed objective from 1120.99 to 1120.99
 Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
 Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
@@ -53,13 +37,12 @@ ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after addin
 
 Result - Stopped on time limit
 
-Objective value:                2277.46442487
+No feasible solution found
 Lower bound:                    1120.986
-Gap:                            1.03
 Enumerated nodes:               0
 Total iterations:               0
-Time (CPU seconds):             373.25
-Time (Wallclock seconds):       375.04
+Time (CPU seconds):             200.85
+Time (Wallclock seconds):       201.50
 
-Total time (CPU seconds):       373.60   (Wallclock seconds):       375.41
+Total time (CPU seconds):       201.21   (Wallclock seconds):       201.88
 

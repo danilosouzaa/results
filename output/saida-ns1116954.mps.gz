@@ -2,7 +2,7 @@ Welcome to the CBC MILP Solver
 Version: devel 
 Build Date: Sep 21 2020 
 
-command line - ./cbc input/ns1116954.mps.gz sec 360 MaxN 0 solve (default strategy 1)
+command line - ./cbc input/ns1116954.mps.gz sec 180 solve (default strategy 1)
 At line 1 NAME          ns1116954
 At line 2 ROWS
 At line 131995 COLUMNS
@@ -11,9 +11,8 @@ At line 666446 BOUNDS
 At line 679095 ENDATA
 Problem ns1116954 has 131991 rows, 12648 columns and 410582 elements
 Coin0008I ns1116954 read with 0 errors
-seconds was changed from 1e+100 to 360
-maxNodes was changed from 2147483647 to 0
-Continuous objective value is 0 - 13.28 seconds
+seconds was changed from 1e+100 to 180
+Continuous objective value is 0 - 13.35 seconds
 Cgl0003I 0 fixed, 0 tightened bounds, 8658 strengthened rows, 0 substitutions
 Cgl0003I 0 fixed, 0 tightened bounds, 13303 strengthened rows, 0 substitutions
 Cgl0003I 0 fixed, 0 tightened bounds, 13640 strengthened rows, 0 substitutions
@@ -30,21 +29,12 @@ After applying Clique Strengthening continuous objective value is 0.00
 Cbc0045I No integer variables out of 7482 objects (7482 integer) have costs
 Cbc0045I branch on satisfied N create fake objective Y random cost Y
 Cbc0038I Initial state - 546 integers unsatisfied sum - 121.872
-Cbc0038I Pass   1: (169.15 seconds) suminf.   53.25685 (194) obj. 0 iterations 14540
-Cbc0038I Pass   2: (240.86 seconds) suminf.   24.78206 (139) obj. 0 iterations 13846
-Cbc0038I Pass   3: (266.32 seconds) suminf.   21.35271 (105) obj. 0 iterations 4964
-Cbc0038I Pass   4: (270.00 seconds) suminf.   20.67206 (105) obj. 0 iterations 616
-Cbc0038I Pass   5: (282.09 seconds) suminf.   20.00833 (101) obj. 0 iterations 2301
-Cbc0038I Pass   6: (298.92 seconds) suminf.   19.09296 (90) obj. 0 iterations 3472
-Cbc0038I Pass   7: (317.94 seconds) suminf.   17.84373 (79) obj. 0 iterations 3830
-Cbc0038I Pass   8: (322.53 seconds) suminf.   17.28989 (81) obj. 0 iterations 911
-Cbc0038I Pass   9: (344.75 seconds) suminf.   17.60655 (75) obj. 0 iterations 4481
-Cbc0038I Pass  10: (353.50 seconds) suminf.   16.98731 (73) obj. 0 iterations 1899
-Cbc0038I Pass  11: (361.68 seconds) suminf.   16.15014 (90) obj. 0 iterations 1661
+Cbc0038I Pass   1: (169.32 seconds) suminf.   53.25685 (194) obj. 0 iterations 14540
+Cbc0038I Pass   2: (241.18 seconds) suminf.   24.78206 (139) obj. 0 iterations 13846
 Cbc0038I No solution found this major pass
-Cbc0038I After 361.68 seconds - Feasibility pump exiting - took 273.68 seconds
+Cbc0038I After 241.18 seconds - Feasibility pump exiting - took 152.86 seconds
 Cbc0020I Exiting on maximum time
-Cbc0005I Partial search - best objective 1e+50 (best possible 0), took 0 iterations and 0 nodes (361.84 seconds)
+Cbc0005I Partial search - best objective 1e+50 (best possible 0), took 0 iterations and 0 nodes (241.36 seconds)
 Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
 Cuts at root node changed objective from 0 to 0
 Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
@@ -63,8 +53,8 @@ No feasible solution found
 Lower bound:                    0.000
 Enumerated nodes:               0
 Total iterations:               0
-Time (CPU seconds):             361.85
-Time (Wallclock seconds):       362.61
+Time (CPU seconds):             241.37
+Time (Wallclock seconds):       242.46
 
-Total time (CPU seconds):       362.25   (Wallclock seconds):       363.03
+Total time (CPU seconds):       241.79   (Wallclock seconds):       242.89
 

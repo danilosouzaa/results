@@ -2,7 +2,7 @@ Welcome to the CBC MILP Solver
 Version: devel 
 Build Date: Sep 21 2020 
 
-command line - ./cbc input/neos-1354092.mps.gz sec 360 MaxN 0 solve (default strategy 1)
+command line - ./cbc input/neos-1354092.mps.gz sec 180 solve (default strategy 1)
 At line 8 NAME                  neos-1354092
 At line 9 ROWS
 At line 3146 COLUMNS
@@ -11,9 +11,8 @@ At line 98374 BOUNDS
 At line 112312 ENDATA
 Problem neos-1354092 has 3135 rows, 13702 columns and 187187 elements
 Coin0008I neos-1354092 read with 0 errors
-seconds was changed from 1e+100 to 360
-maxNodes was changed from 2147483647 to 0
-Continuous objective value is 13.2857 - 51.84 seconds
+seconds was changed from 1e+100 to 180
+Continuous objective value is 13.2857 - 51.94 seconds
 Cgl0004I processed model has 2722 rows, 13282 columns (13282 integer (13282 of which binary)) and 344610 elements
 Coin3009W Conflict graph built in 0.031 seconds, density: 0.015%
 Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
@@ -37,34 +36,13 @@ Cbc0038I Pass  13: suminf.    0.00000 (0) obj. 52 iterations 8785
 Cbc0038I Solution found of 52
 Cbc0038I Before mini branch and bound, 12189 integers at bound fixed and 0 continuous
 Cbc0038I Full problem 2722 rows 13282 columns, reduced to 876 rows 749 columns
-Cbc0038I Mini branch and bound did not improve solution (192.71 seconds)
+Cbc0038I Mini branch and bound did not improve solution (180.65 seconds)
 Cbc0038I Round again with cutoff of 47.2287
-Cbc0038I Pass  14: suminf.   45.66738 (303) obj. 32.1537 iterations 0
-Cbc0038I Pass  15: suminf.   32.82685 (227) obj. 39.0288 iterations 3663
-Cbc0038I Pass  16: suminf.   28.86497 (194) obj. 41.4414 iterations 2531
-Cbc0038I Pass  17: suminf.   24.46655 (170) obj. 42.5545 iterations 2480
-Cbc0038I Pass  18: suminf.   18.59910 (144) obj. 44.191 iterations 3663
-Cbc0038I Pass  19: suminf.   17.70516 (133) obj. 44.7668 iterations 1207
-Cbc0038I Pass  20: suminf.   16.57655 (144) obj. 44.5382 iterations 2782
-Cbc0038I Pass  21: suminf.   12.18150 (120) obj. 46.6771 iterations 4586
-Cbc0038I Pass  22: suminf.   11.67566 (100) obj. 47.0839 iterations 1442
-Cbc0038I Pass  23: suminf.   11.14740 (108) obj. 47.2287 iterations 1515
-Cbc0038I Pass  24: suminf.   10.42534 (106) obj. 47.2287 iterations 2286
-Cbc0038I Pass  25: suminf.    9.79526 (108) obj. 47.2287 iterations 1552
-Cbc0038I Pass  26: suminf.    8.51870 (140) obj. 47.2287 iterations 5655
-Cbc0038I Pass  27: suminf.   12.58588 (65) obj. 47.2287 iterations 11450
-Cbc0038I Pass  28: suminf.   10.83817 (63) obj. 47.2287 iterations 6131
-Cbc0038I Pass  29: suminf.   10.04149 (65) obj. 47.2287 iterations 9307
-Cbc0038I Pass  30: suminf.    6.77134 (61) obj. 47.2287 iterations 6707
-Cbc0038I Pass  31: suminf.   14.64423 (162) obj. 47.2287 iterations 10547
-Cbc0038I Pass  32: suminf.   10.39368 (96) obj. 47.2287 iterations 6490
-Cbc0038I Pass  33: suminf.    7.23439 (121) obj. 47.2287 iterations 5676
-Cbc0038I Pass  34: suminf.   10.91907 (87) obj. 47.2287 iterations 10278
 Cbc0038I No solution found this major pass
-Cbc0038I After 380.18 seconds - Feasibility pump exiting with objective of 52 - took 325.84 seconds
-Cbc0012I Integer solution of 52 found by feasibility pump after 0 iterations and 0 nodes (380.20 seconds)
+Cbc0038I After 180.70 seconds - Feasibility pump exiting with objective of 52 - took 126.30 seconds
+Cbc0012I Integer solution of 52 found by feasibility pump after 0 iterations and 0 nodes (180.72 seconds)
 Cbc0020I Exiting on maximum time
-Cbc0005I Partial search - best objective 52 (best possible 13.285714), took 0 iterations and 0 nodes (380.26 seconds)
+Cbc0005I Partial search - best objective 52 (best possible 13.285714), took 0 iterations and 0 nodes (180.78 seconds)
 Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
 Cuts at root node changed objective from 13.2857 to 13.2857
 Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
@@ -84,8 +62,8 @@ Lower bound:                    13.286
 Gap:                            2.91
 Enumerated nodes:               0
 Total iterations:               0
-Time (CPU seconds):             380.63
-Time (Wallclock seconds):       381.26
+Time (CPU seconds):             181.16
+Time (Wallclock seconds):       181.64
 
-Total time (CPU seconds):       380.74   (Wallclock seconds):       381.39
+Total time (CPU seconds):       181.27   (Wallclock seconds):       181.76
 
