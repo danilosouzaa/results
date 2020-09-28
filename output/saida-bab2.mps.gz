@@ -12,8 +12,8 @@ At line 2310785 ENDATA
 Problem bab2 has 17245 rows, 147912 columns and 2027726 elements
 Coin0008I bab2 read with 0 errors
 seconds was changed from 1e+100 to 180
-Continuous objective value is -432166 - 93.93 seconds
+Continuous objective value is -432166 - 94.12 seconds
 Cgl0000I Cut generators found to be infeasible! (or unbounded)
 Pre-processing says infeasible or unbounded
-Total time (CPU seconds):       192.56   (Wallclock seconds):       192.73
+Total time (CPU seconds):       192.62   (Wallclock seconds):       193.05
 

@@ -12,7 +12,7 @@ At line 679095 ENDATA
 Problem ns1116954 has 131991 rows, 12648 columns and 410582 elements
 Coin0008I ns1116954 read with 0 errors
 seconds was changed from 1e+100 to 180
-Continuous objective value is 0 - 13.35 seconds
+Continuous objective value is 0 - 13.33 seconds
 Cgl0003I 0 fixed, 0 tightened bounds, 8658 strengthened rows, 0 substitutions
 Cgl0003I 0 fixed, 0 tightened bounds, 13303 strengthened rows, 0 substitutions
 Cgl0003I 0 fixed, 0 tightened bounds, 13640 strengthened rows, 0 substitutions
@@ -29,12 +29,12 @@ After applying Clique Strengthening continuous objective value is 0.00
 Cbc0045I No integer variables out of 7482 objects (7482 integer) have costs
 Cbc0045I branch on satisfied N create fake objective Y random cost Y
 Cbc0038I Initial state - 546 integers unsatisfied sum - 121.872
-Cbc0038I Pass   1: (169.32 seconds) suminf.   53.25685 (194) obj. 0 iterations 14540
-Cbc0038I Pass   2: (241.18 seconds) suminf.   24.78206 (139) obj. 0 iterations 13846
+Cbc0038I Pass   1: (170.15 seconds) suminf.   53.25685 (194) obj. 0 iterations 14540
+Cbc0038I Pass   2: (242.17 seconds) suminf.   24.78206 (139) obj. 0 iterations 13846
 Cbc0038I No solution found this major pass
-Cbc0038I After 241.18 seconds - Feasibility pump exiting - took 152.86 seconds
+Cbc0038I After 242.18 seconds - Feasibility pump exiting - took 153.49 seconds
 Cbc0020I Exiting on maximum time
-Cbc0005I Partial search - best objective 1e+50 (best possible 0), took 0 iterations and 0 nodes (241.36 seconds)
+Cbc0005I Partial search - best objective 1e+50 (best possible 0), took 0 iterations and 0 nodes (242.37 seconds)
 Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
 Cuts at root node changed objective from 0 to 0
 Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
@@ -53,8 +53,8 @@ No feasible solution found
 Lower bound:                    0.000
 Enumerated nodes:               0
 Total iterations:               0
-Time (CPU seconds):             241.37
-Time (Wallclock seconds):       242.46
+Time (CPU seconds):             242.37
+Time (Wallclock seconds):       243.23
 
-Total time (CPU seconds):       241.79   (Wallclock seconds):       242.89
+Total time (CPU seconds):       242.79   (Wallclock seconds):       243.65
 

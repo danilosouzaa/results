@@ -12,11 +12,11 @@ At line 1039594 ENDATA
 Problem neos-3754224-navua has 232387 rows, 150228 columns and 652974 elements
 Coin0008I neos-3754224-navua read with 0 errors
 seconds was changed from 1e+100 to 180
-Continuous objective value is 55467.2 - 15482.09 seconds
+Continuous objective value is 55467.2 - 15468.71 seconds
 Coin3009W Conflict graph built in 0.065 seconds, density: 0.000%
 Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
 Cbc0020I Exiting on maximum time
-Cbc0005I Partial search - best objective 1e+50 (best possible 55685.795), took 0 iterations and 0 nodes (18935.76 seconds)
+Cbc0005I Partial search - best objective 1e+50 (best possible 55685.795), took 0 iterations and 0 nodes (18918.96 seconds)
 Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
 Cuts at root node changed objective from 55685.8 to 55685.8
 Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
@@ -35,8 +35,8 @@ No feasible solution found
 Lower bound:                    55685.795
 Enumerated nodes:               0
 Total iterations:               0
-Time (CPU seconds):             18935.77
-Time (Wallclock seconds):       18940.65
+Time (CPU seconds):             18918.97
+Time (Wallclock seconds):       18924.33
 
-Total time (CPU seconds):       18936.52   (Wallclock seconds):       18941.43
+Total time (CPU seconds):       18919.71   (Wallclock seconds):       18925.10
 

@@ -12,17 +12,17 @@ At line 480723 ENDATA
 Problem neos-4763324-toguru has 106954 rows, 53593 columns and 266805 elements
 Coin0008I neos-4763324-toguru read with 0 errors
 seconds was changed from 1e+100 to 180
-Continuous objective value is 1120.99 - 17.90 seconds
+Continuous objective value is 1120.99 - 17.89 seconds
 Cgl0004I processed model has 106723 rows, 53593 columns (53592 integer (53592 of which binary)) and 266574 elements
-Coin3009W Conflict graph built in 3.505 seconds, density: 0.109%
+Coin3009W Conflict graph built in 3.488 seconds, density: 0.109%
 Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
 Cbc0038I Initial state - 1563 integers unsatisfied sum - 232.946
-Cbc0038I Pass   1: (175.75 seconds) suminf.  155.59003 (852) obj. 7002.95 iterations 30488
-Cbc0038I Pass   2: (200.63 seconds) suminf.  100.65383 (489) obj. 8125.84 iterations 5606
+Cbc0038I Pass   1: (175.80 seconds) suminf.  155.59003 (852) obj. 7002.95 iterations 30488
+Cbc0038I Pass   2: (200.84 seconds) suminf.  100.65383 (489) obj. 8125.84 iterations 5606
 Cbc0038I No solution found this major pass
-Cbc0038I After 200.64 seconds - Feasibility pump exiting - took 170.74 seconds
+Cbc0038I After 200.84 seconds - Feasibility pump exiting - took 171.00 seconds
 Cbc0020I Exiting on maximum time
-Cbc0005I Partial search - best objective 1e+50 (best possible 1120.9861), took 0 iterations and 0 nodes (200.85 seconds)
+Cbc0005I Partial search - best objective 1e+50 (best possible 1120.9861), took 0 iterations and 0 nodes (201.03 seconds)
 Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
 Cuts at root node changed objective from 1120.99 to 1120.99
 Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
@@ -41,8 +41,8 @@ No feasible solution found
 Lower bound:                    1120.986
 Enumerated nodes:               0
 Total iterations:               0
-Time (CPU seconds):             200.85
-Time (Wallclock seconds):       201.50
+Time (CPU seconds):             201.04
+Time (Wallclock seconds):       201.71
 
-Total time (CPU seconds):       201.21   (Wallclock seconds):       201.88
+Total time (CPU seconds):       201.39   (Wallclock seconds):       202.08
 

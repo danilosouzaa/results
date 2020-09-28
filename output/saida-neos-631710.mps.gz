@@ -12,14 +12,14 @@ At line 1173328 ENDATA
 Problem neos-631710 has 169576 rows, 167056 columns and 834166 elements
 Coin0008I neos-631710 read with 0 errors
 seconds was changed from 1e+100 to 180
-Continuous objective value is 188.25 - 135.03 seconds
+Continuous objective value is 188.25 - 135.12 seconds
 Cgl0004I processed model has 169576 rows, 167056 columns (167056 integer (167056 of which binary)) and 834166 elements
-Coin3009W Conflict graph built in 279.009 seconds, density: 0.117%
+Coin3009W Conflict graph built in 278.001 seconds, density: 0.117%
 Cgl0015I Clique Strengthening extended 1665 cliques, 168165 were dominated
 After applying Clique Strengthening continuous objective value is 188.25
 Cutoff increment increased from 0.0001 to 0.9999
 Cbc0020I Exiting on maximum time
-Cbc0005I Partial search - best objective 1e+50 (best possible 188.25), took 0 iterations and 0 nodes (441.91 seconds)
+Cbc0005I Partial search - best objective 1e+50 (best possible 188.25), took 0 iterations and 0 nodes (441.03 seconds)
 Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
 Cuts at root node changed objective from 188.25 to 188.25
 Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
@@ -38,8 +38,8 @@ No feasible solution found
 Lower bound:                    188.250
 Enumerated nodes:               0
 Total iterations:               0
-Time (CPU seconds):             441.92
-Time (Wallclock seconds):       447.17
+Time (CPU seconds):             441.03
+Time (Wallclock seconds):       446.20
 
-Total time (CPU seconds):       442.70   (Wallclock seconds):       447.98
+Total time (CPU seconds):       441.80   (Wallclock seconds):       447.00
 

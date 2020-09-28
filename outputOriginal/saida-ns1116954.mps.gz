@@ -1,0 +1,60 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Sep 25 2020 
+
+command line - ./cbc input/ns1116954.mps.gz sec 180 solve (default strategy 1)
+At line 1 NAME          ns1116954
+At line 2 ROWS
+At line 131995 COLUMNS
+At line 542580 RHS
+At line 666446 BOUNDS
+At line 679095 ENDATA
+Problem ns1116954 has 131991 rows, 12648 columns and 410582 elements
+Coin0008I ns1116954 read with 0 errors
+seconds was changed from 1e+100 to 180
+Continuous objective value is 0 - 13.30 seconds
+Cgl0003I 0 fixed, 0 tightened bounds, 8658 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 13303 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 13640 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 14352 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 13897 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 16868 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 13609 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 14203 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 13799 strengthened rows, 0 substitutions
+Cgl0004I processed model has 131724 rows, 11928 columns (7482 integer (7482 of which binary)) and 531250 elements
+Coin3009W Conflict graph built in 0.153 seconds, density: 0.075%
+Cgl0015I Clique Strengthening extended 2904 cliques, 7083 were dominated
+After applying Clique Strengthening continuous objective value is 0.00
+Cbc0045I No integer variables out of 7482 objects (7482 integer) have costs
+Cbc0045I branch on satisfied N create fake objective Y random cost Y
+Cbc0038I Initial state - 546 integers unsatisfied sum - 121.872
+Cbc0038I Pass   1: (168.87 seconds) suminf.   53.25685 (194) obj. 0 iterations 14540
+Cbc0038I Pass   2: (240.69 seconds) suminf.   24.78206 (139) obj. 0 iterations 13846
+Cbc0038I No solution found this major pass
+Cbc0038I After 240.69 seconds - Feasibility pump exiting - took 152.99 seconds
+Cbc0020I Exiting on maximum time
+Cbc0005I Partial search - best objective 1e+50 (best possible 0), took 0 iterations and 0 nodes (240.87 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 0 to 0
+Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+OddWheel was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+
+Result - Stopped on time limit
+
+No feasible solution found
+Lower bound:                    0.000
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             240.88
+Time (Wallclock seconds):       241.49
+
+Total time (CPU seconds):       241.28   (Wallclock seconds):       241.91
+

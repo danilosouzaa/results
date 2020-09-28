@@ -12,7 +12,7 @@ At line 112312 ENDATA
 Problem neos-1354092 has 3135 rows, 13702 columns and 187187 elements
 Coin0008I neos-1354092 read with 0 errors
 seconds was changed from 1e+100 to 180
-Continuous objective value is 13.2857 - 51.94 seconds
+Continuous objective value is 13.2857 - 51.84 seconds
 Cgl0004I processed model has 2722 rows, 13282 columns (13282 integer (13282 of which binary)) and 344610 elements
 Coin3009W Conflict graph built in 0.031 seconds, density: 0.015%
 Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
@@ -36,13 +36,13 @@ Cbc0038I Pass  13: suminf.    0.00000 (0) obj. 52 iterations 8785
 Cbc0038I Solution found of 52
 Cbc0038I Before mini branch and bound, 12189 integers at bound fixed and 0 continuous
 Cbc0038I Full problem 2722 rows 13282 columns, reduced to 876 rows 749 columns
-Cbc0038I Mini branch and bound did not improve solution (180.65 seconds)
+Cbc0038I Mini branch and bound did not improve solution (180.07 seconds)
 Cbc0038I Round again with cutoff of 47.2287
 Cbc0038I No solution found this major pass
-Cbc0038I After 180.70 seconds - Feasibility pump exiting with objective of 52 - took 126.30 seconds
-Cbc0012I Integer solution of 52 found by feasibility pump after 0 iterations and 0 nodes (180.72 seconds)
+Cbc0038I After 180.13 seconds - Feasibility pump exiting with objective of 52 - took 125.81 seconds
+Cbc0012I Integer solution of 52 found by feasibility pump after 0 iterations and 0 nodes (180.14 seconds)
 Cbc0020I Exiting on maximum time
-Cbc0005I Partial search - best objective 52 (best possible 13.285714), took 0 iterations and 0 nodes (180.78 seconds)
+Cbc0005I Partial search - best objective 52 (best possible 13.285714), took 0 iterations and 0 nodes (180.20 seconds)
 Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
 Cuts at root node changed objective from 13.2857 to 13.2857
 Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
@@ -62,8 +62,8 @@ Lower bound:                    13.286
 Gap:                            2.91
 Enumerated nodes:               0
 Total iterations:               0
-Time (CPU seconds):             181.16
-Time (Wallclock seconds):       181.64
+Time (CPU seconds):             180.58
+Time (Wallclock seconds):       180.71
 
-Total time (CPU seconds):       181.27   (Wallclock seconds):       181.76
+Total time (CPU seconds):       180.69   (Wallclock seconds):       180.83
 

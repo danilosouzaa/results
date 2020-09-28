@@ -12,9 +12,9 @@ At line 955223 ENDATA
 Problem neos-4413714-turia has 2303 rows, 190402 columns and 761756 elements
 Coin0008I neos-4413714-turia read with 0 errors
 seconds was changed from 1e+100 to 180
-Continuous objective value is 43.4747 - 40.58 seconds
+Continuous objective value is 43.4747 - 40.55 seconds
 Cgl0004I processed model has 2303 rows, 190402 columns (190201 integer (190201 of which binary)) and 761756 elements
-Coin3009W Conflict graph built in 43.417 seconds, density: 0.027%
+Coin3009W Conflict graph built in 43.385 seconds, density: 0.027%
 Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
 Cbc0038I Initial state - 1990 integers unsatisfied sum - 343.928
 Cbc0038I Pass   1: suminf.    1.80345 (134) obj. 353.238 iterations 3654
@@ -30,7 +30,7 @@ Cbc0038I Solution found of 353.238
 Cbc0038I Relaxing continuous gives 353.238
 Cbc0038I Before mini branch and bound, 188205 integers at bound fixed and 39 continuous
 Cbc0038I Full problem 2303 rows 190402 columns, reduced to 1190 rows 1196 columns
-Cbc0038I Mini branch and bound improved solution from 353.238 to 312.796 (122.78 seconds)
+Cbc0038I Mini branch and bound improved solution from 353.238 to 312.796 (122.76 seconds)
 Cbc0038I Round again with cutoff of 285.864
 Cbc0038I Reduced cost fixing fixed 81 variables on major pass 2
 Cbc0038I Pass  10: suminf.    2.81776 (138) obj. 285.864 iterations 70
@@ -49,7 +49,7 @@ Cbc0038I Solution found of 285.864
 Cbc0038I Relaxing continuous gives 263.399
 Cbc0038I Before mini branch and bound, 188200 integers at bound fixed and 39 continuous
 Cbc0038I Full problem 2303 rows 190402 columns, reduced to 1190 rows 1201 columns
-Cbc0038I Mini branch and bound improved solution from 263.399 to 249.573 (151.39 seconds)
+Cbc0038I Mini branch and bound improved solution from 263.399 to 249.573 (151.56 seconds)
 Cbc0038I Freeing continuous variables gives a solution of 249.573
 Cbc0038I Round again with cutoff of 208.353
 Cbc0038I Reduced cost fixing fixed 118 variables on major pass 3
@@ -70,7 +70,7 @@ Cbc0038I Solution found of 208.353
 Cbc0038I Relaxing continuous gives 193.789
 Cbc0038I Before mini branch and bound, 188199 integers at bound fixed and 39 continuous
 Cbc0038I Full problem 2303 rows 190402 columns, reduced to 1191 rows 1203 columns
-Cbc0038I Mini branch and bound improved solution from 193.789 to 105.961 (175.08 seconds)
+Cbc0038I Mini branch and bound improved solution from 193.789 to 105.961 (175.18 seconds)
 Cbc0038I Round again with cutoff of 87.2151
 Cbc0038I Reduced cost fixing fixed 179 variables on major pass 4
 Cbc0038I Pass  35: suminf.    3.59505 (143) obj. 87.2151 iterations 144
@@ -78,10 +78,10 @@ Cbc0038I Pass  36: suminf.    2.22133 (137) obj. 87.2151 iterations 197
 Cbc0038I Pass  37: suminf.    1.66924 (120) obj. 87.2151 iterations 1317
 Cbc0038I Pass  38: suminf.    1.35144 (119) obj. 87.2151 iterations 330
 Cbc0038I No solution found this major pass
-Cbc0038I After 180.18 seconds - Feasibility pump exiting with objective of 105.961 - took 90.26 seconds
-Cbc0012I Integer solution of 105.96115 found by feasibility pump after 0 iterations and 0 nodes (180.29 seconds)
+Cbc0038I After 180.29 seconds - Feasibility pump exiting with objective of 105.961 - took 90.48 seconds
+Cbc0012I Integer solution of 105.96115 found by feasibility pump after 0 iterations and 0 nodes (180.41 seconds)
 Cbc0020I Exiting on maximum time
-Cbc0005I Partial search - best objective 105.96115 (best possible 43.474651), took 0 iterations and 0 nodes (180.54 seconds)
+Cbc0005I Partial search - best objective 105.96115 (best possible 43.474651), took 0 iterations and 0 nodes (180.68 seconds)
 Cbc0035I Maximum depth 0, 175 variables fixed on reduced cost
 Cuts at root node changed objective from 43.4747 to 43.4747
 Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
@@ -101,8 +101,8 @@ Lower bound:                    43.475
 Gap:                            1.44
 Enumerated nodes:               0
 Total iterations:               0
-Time (CPU seconds):             181.58
-Time (Wallclock seconds):       185.64
+Time (CPU seconds):             181.72
+Time (Wallclock seconds):       185.57
 
-Total time (CPU seconds):       182.22   (Wallclock seconds):       186.31
+Total time (CPU seconds):       182.37   (Wallclock seconds):       186.23
 

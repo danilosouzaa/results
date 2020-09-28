@@ -22,7 +22,7 @@ Cgl0003I 0 fixed, 0 tightened bounds, 9 strengthened rows, 0 substitutions
 Cgl0003I 0 fixed, 0 tightened bounds, 9 strengthened rows, 0 substitutions
 Cgl0003I 0 fixed, 0 tightened bounds, 9 strengthened rows, 0 substitutions
 Cgl0004I processed model has 3078 rows, 57666 columns (57666 integer (57666 of which binary)) and 391115 elements
-Coin3009W Conflict graph built in 39.691 seconds, density: 0.189%
+Coin3009W Conflict graph built in 39.731 seconds, density: 0.189%
 Cgl0015I Clique Strengthening extended 298 cliques, 477 were dominated
 After applying Clique Strengthening continuous objective value is -237.76
 Cbc0038I Initial state - 172 integers unsatisfied sum - 55.5625
@@ -32,7 +32,7 @@ Cbc0038I Rounding solution of -232.76 is better than previous of -217.787
 
 Cbc0038I Before mini branch and bound, 57493 integers at bound fixed and 0 continuous
 Cbc0038I Full problem 2899 rows 57666 columns, reduced to 353 rows 166 columns
-Cbc0038I Mini branch and bound did not improve solution (74.21 seconds)
+Cbc0038I Mini branch and bound did not improve solution (74.09 seconds)
 Cbc0038I Round again with cutoff of -233.26
 Cbc0038I Pass   2: suminf.    1.00459 (4) obj. -233.26 iterations 757
 Cbc0038I Solution found of -233.762
@@ -40,13 +40,13 @@ Cbc0038I Rounding solution of -234.759 is better than previous of -233.762
 
 Cbc0038I Before mini branch and bound, 57478 integers at bound fixed and 0 continuous
 Cbc0038I Full problem 2899 rows 57666 columns, reduced to 363 rows 181 columns
-Cbc0038I Mini branch and bound did not improve solution (77.75 seconds)
+Cbc0038I Mini branch and bound did not improve solution (77.61 seconds)
 Cbc0038I Round again with cutoff of -235.359
 Cbc0038I Pass   3: suminf.    0.39962 (1) obj. -235.359 iterations 42
 Cbc0038I Solution found of -235.757
 Cbc0038I Before mini branch and bound, 57477 integers at bound fixed and 0 continuous
 Cbc0038I Full problem 2899 rows 57666 columns, reduced to 364 rows 182 columns
-Cbc0038I Mini branch and bound improved solution from -235.757 to -235.761 (80.81 seconds)
+Cbc0038I Mini branch and bound improved solution from -235.757 to -235.761 (80.68 seconds)
 Cbc0038I Round again with cutoff of -236.36
 Cbc0038I Pass   4: suminf.    1.20752 (6) obj. -236.36 iterations 215
 Cbc0038I Pass   5: suminf.    0.80501 (4) obj. -236.36 iterations 151
@@ -54,7 +54,7 @@ Cbc0038I Pass   6: suminf.    0.00000 (0) obj. -237.753 iterations 1409
 Cbc0038I Solution found of -237.753
 Cbc0038I Before mini branch and bound, 57472 integers at bound fixed and 0 continuous
 Cbc0038I Full problem 2899 rows 57666 columns, reduced to 368 rows 186 columns
-Cbc0038I Mini branch and bound improved solution from -237.753 to -237.757 (86.90 seconds)
+Cbc0038I Mini branch and bound improved solution from -237.753 to -237.757 (86.78 seconds)
 Cbc0038I Round again with cutoff of -237.757
 Cbc0038I Reduced cost fixing fixed 263 variables on major pass 5
 Cbc0038I Pass   7: suminf.   13.24637 (55) obj. -237.757 iterations 3049
@@ -90,7 +90,7 @@ Cbc0038I Pass  36: suminf.    5.43418 (19) obj. -237.757 iterations 1683
 Cbc0038I No solution found this major pass
 Cbc0038I Before mini branch and bound, 56342 integers at bound fixed and 0 continuous
 Cbc0038I Full problem 2899 rows 57666 columns, reduced to 857 rows 803 columns
-Cbc0038I Mini branch and bound improved solution from -237.757 to -237.757 (166.80 seconds)
+Cbc0038I Mini branch and bound improved solution from -237.757 to -237.757 (166.59 seconds)
 Cbc0038I Round again with cutoff of -237.757
 Cbc0038I Reduced cost fixing fixed 6158 variables on major pass 6
 Cbc0038I Pass  36: suminf.   18.96938 (52) obj. -237.757 iterations 290
@@ -115,10 +115,10 @@ Cbc0038I Pass  54: suminf.    8.49680 (46) obj. -237.757 iterations 1083
 Cbc0038I Pass  55: suminf.   26.00002 (144) obj. -237.757 iterations 1434
 Cbc0038I Pass  56: suminf.    9.36112 (55) obj. -237.757 iterations 1714
 Cbc0038I No solution found this major pass
-Cbc0038I After 180.93 seconds - Feasibility pump exiting with objective of -237.757 - took 111.83 seconds
-Cbc0012I Integer solution of -237.75668 found by feasibility pump after 0 iterations and 0 nodes (180.96 seconds)
+Cbc0038I After 180.69 seconds - Feasibility pump exiting with objective of -237.757 - took 111.75 seconds
+Cbc0012I Integer solution of -237.75668 found by feasibility pump after 0 iterations and 0 nodes (180.72 seconds)
 Cbc0020I Exiting on maximum time
-Cbc0005I Partial search - best objective -237.75668 (best possible -237.75791), took 0 iterations and 0 nodes (181.05 seconds)
+Cbc0005I Partial search - best objective -237.75668 (best possible -237.75791), took 0 iterations and 0 nodes (180.80 seconds)
 Cbc0035I Maximum depth 0, 136 variables fixed on reduced cost
 Cuts at root node changed objective from -237.758 to -237.758
 Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
@@ -138,8 +138,8 @@ Lower bound:                    -237.758
 Gap:                            0.00
 Enumerated nodes:               0
 Total iterations:               0
-Time (CPU seconds):             182.00
-Time (Wallclock seconds):       184.40
+Time (CPU seconds):             181.74
+Time (Wallclock seconds):       184.20
 
-Total time (CPU seconds):       182.35   (Wallclock seconds):       184.75
+Total time (CPU seconds):       182.08   (Wallclock seconds):       184.55
 

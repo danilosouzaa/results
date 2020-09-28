@@ -1,0 +1,42 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Sep 25 2020 
+
+command line - ./cbc input/square47.mps.gz sec 180 solve (default strategy 1)
+At line 2 NAME          square47
+At line 3 ROWS
+At line 61596 COLUMNS
+At line 27486442 RHS
+At line 27488694 BOUNDS
+At line 27583725 ENDATA
+Problem square47 has 61591 rows, 95030 columns and 27329856 elements
+Coin0008I square47 read with 0 errors
+seconds was changed from 1e+100 to 180
+Continuous objective value is 8.75581 - 10751.59 seconds
+Coin3009W Conflict graph built in 27702.934 seconds, density: 11.178%
+Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
+Cbc0020I Exiting on maximum time
+Cbc0005I Partial search - best objective 1e+50 (best possible 8.755814), took 0 iterations and 0 nodes (38878.23 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 8.75581 to 8.75581
+Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+OddWheel was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+
+Result - Stopped on time limit
+
+No feasible solution found
+Lower bound:                    8.756
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             38878.24
+Time (Wallclock seconds):       38895.70
+
+Total time (CPU seconds):       38898.57   (Wallclock seconds):       38916.29
+

@@ -1,0 +1,106 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Sep 25 2020 
+
+command line - ./cbc input/academictimetablesmall.mps.gz sec 180 solve (default strategy 1)
+At line 2 NAME          academictimetablesmall
+At line 3 ROWS
+At line 23299 COLUMNS
+At line 291907 RHS
+At line 313025 BOUNDS
+At line 341952 ENDATA
+Problem academictimetablesmall has 23294 rows, 28926 columns and 268350 elements
+Coin0008I academictimetablesmall read with 0 errors
+seconds was changed from 1e+100 to 180
+Continuous objective value is 0 - 4.24 seconds
+Cgl0002I 480 variables fixed
+Cgl0003I 216 fixed, 0 tightened bounds, 6756 strengthened rows, 2950 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 2205 strengthened rows, 80 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 3393 strengthened rows, 26 substitutions
+Cgl0003I 0 fixed, 4 tightened bounds, 2140 strengthened rows, 14 substitutions
+Cgl0003I 0 fixed, 31 tightened bounds, 1427 strengthened rows, 12 substitutions
+Cgl0003I 0 fixed, 47 tightened bounds, 1452 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 68 tightened bounds, 1195 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 58 tightened bounds, 1118 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 35 tightened bounds, 726 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 34 tightened bounds, 667 strengthened rows, 0 substitutions
+Cgl0004I processed model has 16125 rows, 24696 columns (24696 integer (24696 of which binary)) and 246401 elements
+Coin3009W Conflict graph built in 0.542 seconds, density: 0.106%
+Cgl0015I Clique Strengthening extended 391 cliques, 762 were dominated
+After applying Clique Strengthening continuous objective value is 0.00
+Cutoff increment increased from 0.0001 to 0.9999
+Cbc0038I Initial state - 952 integers unsatisfied sum - 325.865
+Cbc0038I Pass   1: (25.77 seconds) suminf.  236.80952 (763) obj. 57.372 iterations 3175
+Cbc0038I Pass   2: (26.20 seconds) suminf.  224.57123 (748) obj. 57.5179 iterations 729
+Cbc0038I Pass   3: (26.36 seconds) suminf.  219.04549 (731) obj. 57.1429 iterations 300
+Cbc0038I Pass   4: (26.52 seconds) suminf.  218.06930 (720) obj. 57.1429 iterations 268
+Cbc0038I Pass   5: (26.70 seconds) suminf.  216.27679 (739) obj. 57.1429 iterations 282
+Cbc0038I Pass   6: (26.90 seconds) suminf.  214.45734 (728) obj. 57.1429 iterations 331
+Cbc0038I Pass   7: (27.10 seconds) suminf.  213.37440 (732) obj. 57.1429 iterations 272
+Cbc0038I Pass   8: (27.23 seconds) suminf.  212.30298 (737) obj. 57.1429 iterations 147
+Cbc0038I Pass   9: (27.34 seconds) suminf.  207.37440 (719) obj. 57.1429 iterations 155
+Cbc0038I Pass  10: (27.43 seconds) suminf.  207.37440 (719) obj. 57.1429 iterations 93
+Cbc0038I Pass  11: (27.54 seconds) suminf.  207.37440 (719) obj. 57.1429 iterations 104
+Cbc0038I Pass  12: (27.65 seconds) suminf.  207.37440 (719) obj. 57.1429 iterations 105
+Cbc0038I Pass  13: (27.76 seconds) suminf.  207.37440 (719) obj. 57.1429 iterations 105
+Cbc0038I Pass  14: (27.87 seconds) suminf.  207.37440 (719) obj. 57.1429 iterations 91
+Cbc0038I Pass  15: (27.96 seconds) suminf.  207.37440 (719) obj. 57.1429 iterations 64
+Cbc0038I Pass  16: (28.04 seconds) suminf.  207.37440 (719) obj. 57.1429 iterations 52
+Cbc0038I Pass  17: (28.12 seconds) suminf.  207.37440 (719) obj. 57.1429 iterations 35
+Cbc0038I Pass  18: (28.21 seconds) suminf.  207.37440 (719) obj. 57.1429 iterations 37
+Cbc0038I Pass  19: (28.29 seconds) suminf.  207.37440 (719) obj. 57.1429 iterations 37
+Cbc0038I Pass  20: (28.37 seconds) suminf.  207.37440 (719) obj. 57.1429 iterations 43
+Cbc0038I Pass  21: (28.46 seconds) suminf.  207.37440 (719) obj. 57.1429 iterations 58
+Cbc0038I Pass  22: (28.55 seconds) suminf.  207.37440 (719) obj. 57.1429 iterations 74
+Cbc0038I Pass  23: (28.64 seconds) suminf.  207.37440 (719) obj. 57.1429 iterations 72
+Cbc0038I Pass  24: (28.73 seconds) suminf.  207.37440 (719) obj. 57.1429 iterations 49
+Cbc0038I Pass  25: (28.81 seconds) suminf.  207.37440 (719) obj. 57.1429 iterations 72
+Cbc0038I Pass  26: (28.90 seconds) suminf.  207.37440 (719) obj. 57.1429 iterations 97
+Cbc0038I Pass  27: (29.00 seconds) suminf.  207.37440 (719) obj. 57.1429 iterations 75
+Cbc0038I Pass  28: (29.09 seconds) suminf.  207.37440 (719) obj. 57.1429 iterations 97
+Cbc0038I Pass  29: (29.20 seconds) suminf.  207.37440 (719) obj. 57.1429 iterations 107
+Cbc0038I Pass  30: (29.28 seconds) suminf.  207.37440 (719) obj. 57.1429 iterations 34
+Cbc0038I No solution found this major pass
+Cbc0038I Before mini branch and bound, 23160 integers at bound fixed and 6 continuous
+Cbc0038I Mini branch and bound did not improve solution (29.36 seconds)
+Cbc0038I After 29.36 seconds - Feasibility pump exiting - took 4.90 seconds
+Cbc0031I 385 added rows had average density of 82.761039
+Cbc0013I At root node, 385 cuts changed objective from 0 to 0 in 10 passes
+Cbc0014I Cut generator 0 (Probing) - 2332 row cuts average 2.0 elements, 0 column cuts (0 active)  in 3.656 seconds - new frequency is 1
+Cbc0014I Cut generator 1 (Gomory) - 1448 row cuts average 473.6 elements, 0 column cuts (0 active)  in 24.055 seconds - new frequency is 1
+Cbc0014I Cut generator 2 (Knapsack) - 617 row cuts average 24.1 elements, 0 column cuts (0 active)  in 1.014 seconds - new frequency is 1
+Cbc0014I Cut generator 3 (Clique) - 209 row cuts average 10.4 elements, 0 column cuts (0 active)  in 1.432 seconds - new frequency is 1
+Cbc0014I Cut generator 4 (OddWheel) - 97 row cuts average 7.8 elements, 0 column cuts (0 active)  in 8.873 seconds - new frequency is -100
+Cbc0014I Cut generator 5 (MixedIntegerRounding2) - 124 row cuts average 24.3 elements, 0 column cuts (0 active)  in 0.423 seconds - new frequency is -100
+Cbc0014I Cut generator 6 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.042 seconds - new frequency is -100
+Cbc0014I Cut generator 7 (TwoMirCuts) - 1863 row cuts average 145.3 elements, 0 column cuts (0 active)  in 13.232 seconds - new frequency is -100
+Cbc0014I Cut generator 8 (ZeroHalf) - 242 row cuts average 18.0 elements, 0 column cuts (0 active)  in 16.176 seconds - new frequency is -100
+Cbc0010I After 0 nodes, 1 on tree, 1e+50 best solution, best possible 0 (154.49 seconds)
+Cbc0010I After 1 nodes, 2 on tree, 1e+50 best solution, best possible 0 (164.08 seconds)
+Cbc0020I Exiting on maximum time
+Cbc0005I Partial search - best objective 1e+50 (best possible 0), took 28854 iterations and 2 nodes (181.81 seconds)
+Cbc0032I Strong branching done 38 times (2360 iterations), fathomed 0 nodes and fixed 0 variables
+Cbc0035I Maximum depth 2, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 0 to 0
+Probing was tried 14 times and created 2646 cuts of which 0 were active after adding rounds of cuts (3.777 seconds)
+Gomory was tried 14 times and created 1459 cuts of which 0 were active after adding rounds of cuts (26.913 seconds)
+Knapsack was tried 14 times and created 1036 cuts of which 0 were active after adding rounds of cuts (1.352 seconds)
+Clique was tried 14 times and created 317 cuts of which 0 were active after adding rounds of cuts (2.001 seconds)
+OddWheel was tried 10 times and created 97 cuts of which 0 were active after adding rounds of cuts (8.873 seconds)
+MixedIntegerRounding2 was tried 10 times and created 124 cuts of which 0 were active after adding rounds of cuts (0.423 seconds)
+FlowCover was tried 10 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.042 seconds)
+TwoMirCuts was tried 10 times and created 1863 cuts of which 0 were active after adding rounds of cuts (13.232 seconds)
+ZeroHalf was tried 10 times and created 242 cuts of which 0 were active after adding rounds of cuts (16.176 seconds)
+ImplicationCuts was tried 4 times and created 235 cuts of which 0 were active after adding rounds of cuts (0.072 seconds)
+
+Result - Stopped on time limit
+
+No feasible solution found
+Lower bound:                    0.000
+Enumerated nodes:               2
+Total iterations:               28854
+Time (CPU seconds):             181.88
+Time (Wallclock seconds):       182.34
+
+Total time (CPU seconds):       182.26   (Wallclock seconds):       182.74
+

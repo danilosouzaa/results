@@ -1,0 +1,55 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Sep 21 2020 
+
+command line - ./cbc input/neos-4722843-widden.mps.gz sec 180 solve (default strategy 1)
+At line 1 NAME          neos-4722843-widden
+At line 2 ROWS
+At line 113559 COLUMNS
+At line 429339 RHS
+At line 468783 BOUNDS
+At line 542175 ENDATA
+Problem neos-4722843-widden has 113555 rows, 77723 columns and 311529 elements
+Coin0008I neos-4722843-widden read with 0 errors
+seconds was changed from 1e+100 to 180
+Continuous objective value is -1603.54 - 5.96 seconds
+Cgl0003I 1003 fixed, 0 tightened bounds, 277 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 445 strengthened rows, 0 substitutions
+Cgl0003I 30 fixed, 0 tightened bounds, 9927 strengthened rows, 342 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 109 strengthened rows, 176 substitutions
+Cgl0003I 11 fixed, 0 tightened bounds, 1334 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 16 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 697 strengthened rows, 18 substitutions
+Cgl0003I 1 fixed, 0 tightened bounds, 226 strengthened rows, 10 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 0 strengthened rows, 4 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 63 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 39 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 3 strengthened rows, 0 substitutions
+Cgl0004I processed model has 107219 rows, 58700 columns (56250 integer (56220 of which binary)) and 304063 elements
+Coin3009W Conflict graph built in 0.104 seconds, density: 0.004%
+Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
+Cbc0020I Exiting on maximum time
+Cbc0005I Partial search - best objective 1e+50 (best possible 1138.3516), took 0 iterations and 0 nodes (184.60 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 1138.35 to 1138.35
+Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+OddWheel was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+
+Result - Stopped on time limit
+
+No feasible solution found
+Lower bound:                    1138.352
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             184.60
+Time (Wallclock seconds):       185.02
+
+Total time (CPU seconds):       184.98   (Wallclock seconds):       185.42
+

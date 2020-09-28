@@ -1,0 +1,19 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Sep 25 2020 
+
+command line - ./cbc input/bab2.mps.gz sec 180 solve (default strategy 1)
+At line 1 NAME          bab2
+At line 2 ROWS
+At line 17249 COLUMNS
+At line 2161818 RHS
+At line 2162872 BOUNDS
+At line 2310785 ENDATA
+Problem bab2 has 17245 rows, 147912 columns and 2027726 elements
+Coin0008I bab2 read with 0 errors
+seconds was changed from 1e+100 to 180
+Continuous objective value is -432166 - 93.78 seconds
+Cgl0000I Cut generators found to be infeasible! (or unbounded)
+Pre-processing says infeasible or unbounded
+Total time (CPU seconds):       192.07   (Wallclock seconds):       192.29
+
