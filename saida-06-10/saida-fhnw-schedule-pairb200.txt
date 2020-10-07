@@ -1,0 +1,40 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/fhnw-schedule-pairb200.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 1 NAME fhnw-schedule-pairb200
+At line 2 ROWS
+At line 99558 COLUMNS
+At line 398317 RHS
+At line 458018 BOUNDS
+At line 498365 ENDATA
+Problem fhnw-schedule-pairb200 has 99554 rows, 40200 columns and 298554 elements
+Coin0008I fhnw-schedule-pairb200 read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is -73.8265 - 3.28 seconds
+Cbc0013I At root node, 0 cuts changed objective from -73.826479 to -73.826479 in 1 passes
+Cbc0014I Cut generator 0 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.131 seconds - new frequency is 1000
+Cbc0003I Exiting on maximum nodes
+Cbc0005I Partial search - best objective 1e+50 (best possible -73.826479), took 0 iterations and 0 nodes (4.07 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from -73.8265 to -73.8265
+Knapsack was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.131 seconds)
+
+Result - Stopped on node limit
+
+No feasible solution found
+Lower bound:                    -73.826
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             4.07
+Time (Wallclock seconds):       4.17
+
+Total time (CPU seconds):       4.42   (Wallclock seconds):       4.53
+

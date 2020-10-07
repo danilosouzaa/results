@@ -1,0 +1,41 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/physiciansched6-1.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 2 NAME          physiciansched6-1
+At line 3 ROWS
+At line 175669 COLUMNS
+At line 718090 RHS
+At line 801182 BOUNDS
+At line 907439 ENDATA
+Problem physiciansched6-1 has 175664 rows, 126204 columns and 542098 elements
+Coin0008I physiciansched6-1 read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is 7500 - 28.39 seconds
+Cbc0031I 899 added rows had average density of 2.2447164
+Cbc0013I At root node, 899 cuts changed objective from 8100 to 8100 in 1 passes
+Cbc0014I Cut generator 0 (Knapsack) - 1350 row cuts average 2.3 elements, 0 column cuts (0 active)  in 0.450 seconds - new frequency is 1
+Cbc0003I Exiting on maximum nodes
+Cbc0005I Partial search - best objective 1e+50 (best possible 8100), took 16747 iterations and 0 nodes (267.80 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 8100 to 8100
+Knapsack was tried 1 times and created 1350 cuts of which 0 were active after adding rounds of cuts (0.450 seconds)
+
+Result - Stopped on node limit
+
+No feasible solution found
+Lower bound:                    8100.000
+Enumerated nodes:               0
+Total iterations:               16747
+Time (CPU seconds):             267.81
+Time (Wallclock seconds):       268.10
+
+Total time (CPU seconds):       268.48   (Wallclock seconds):       268.79
+

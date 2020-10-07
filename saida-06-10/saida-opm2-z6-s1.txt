@@ -1,0 +1,41 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/opm2-z6-s1.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 2 NAME          opm2-z6-s1
+At line 3 ROWS
+At line 15538 COLUMNS
+At line 58720 RHS
+At line 58729 BOUNDS
+At line 60080 ENDATA
+Problem opm2-z6-s1 has 15533 rows, 1350 columns and 41844 elements
+Coin0008I opm2-z6-s1 read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is -7540.52 - 1.98 seconds
+Cutoff increment increased from 0.0001 to 0.9999
+Cbc0013I At root node, 0 cuts changed objective from -7540.5175 to -7540.5175 in 1 passes
+Cbc0014I Cut generator 0 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.017 seconds - new frequency is 1000
+Cbc0003I Exiting on maximum nodes
+Cbc0005I Partial search - best objective 1e+50 (best possible -7540.5175), took 0 iterations and 0 nodes (2.14 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from -7540.52 to -7540.52
+Knapsack was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.017 seconds)
+
+Result - Stopped on node limit
+
+No feasible solution found
+Lower bound:                    -7540.517
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             2.14
+Time (Wallclock seconds):       2.17
+
+Total time (CPU seconds):       2.20   (Wallclock seconds):       2.22
+

@@ -1,0 +1,43 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/ns894786.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 1 NAME           ns894786
+At line 2 ROWS
+At line 16798 COLUMNS
+At line 130390 RHS
+At line 130460 BOUNDS
+At line 157739 ENDATA
+Problem ns894786 has 16794 rows, 27278 columns and 113575 elements
+Coin0008I ns894786 read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is 6.08053 - 7.86 seconds
+Cutoff increment increased from 0.0001 to 0.9999
+Cbc0045I 14 integer variables out of 27278 objects (22255 integer) have cost of 1 - high priority
+Cbc0045I branch on satisfied N create fake objective Y random cost Y
+Cbc0013I At root node, 0 cuts changed objective from 6.0805333 to 6.0805333 in 1 passes
+Cbc0014I Cut generator 0 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.063 seconds - new frequency is 1000
+Cbc0003I Exiting on maximum nodes
+Cbc0005I Partial search - best objective 1e+50 (best possible 6.0805333), took 0 iterations and 0 nodes (8.16 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 6.08053 to 6.08053
+Knapsack was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.063 seconds)
+
+Result - Stopped on node limit
+
+No feasible solution found
+Lower bound:                    6.081
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             8.16
+Time (Wallclock seconds):       8.19
+
+Total time (CPU seconds):       8.31   (Wallclock seconds):       8.33
+

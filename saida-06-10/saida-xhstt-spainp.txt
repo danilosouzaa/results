@@ -1,0 +1,42 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/xhstt-spainp.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 2 NAME          SpainSchoolP.lp
+At line 3 ROWS
+At line 17261 COLUMNS
+At line 171391 RHS
+At line 173771 BOUNDS
+At line 197201 ENDATA
+Problem SpainSchoolP.lp has 17256 rows, 23429 columns and 152730 elements
+Coin0008I SpainSchoolP.lp read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is 300.25 - 28.16 seconds
+Cutoff increment increased from 0.0001 to 0.9999
+Cbc0031I 169 added rows had average density of 2.0295858
+Cbc0013I At root node, 169 cuts changed objective from 300.25 to 300.25 in 1 passes
+Cbc0014I Cut generator 0 (Knapsack) - 200 row cuts average 2.1 elements, 0 column cuts (0 active)  in 0.172 seconds - new frequency is 1
+Cbc0003I Exiting on maximum nodes
+Cbc0005I Partial search - best objective 1e+50 (best possible 300.25), took 11300 iterations and 0 nodes (74.95 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 300.25 to 300.25
+Knapsack was tried 1 times and created 200 cuts of which 0 were active after adding rounds of cuts (0.172 seconds)
+
+Result - Stopped on node limit
+
+No feasible solution found
+Lower bound:                    300.250
+Enumerated nodes:               0
+Total iterations:               11300
+Time (CPU seconds):             74.95
+Time (Wallclock seconds):       75.07
+
+Total time (CPU seconds):       75.32   (Wallclock seconds):       75.45
+

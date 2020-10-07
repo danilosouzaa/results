@@ -1,0 +1,39 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/neos-4754521-awarau.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 1 NAME          neos-4754521-awarau
+At line 2 ROWS
+At line 255390 COLUMNS
+At line 1499874 RHS
+At line 1679090 BOUNDS
+At line 1720771 ENDATA
+Problem neos-4754521-awarau has 255386 rows, 41680 columns and 1237481 elements
+Coin0008I neos-4754521-awarau read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is 0 - 4.73 seconds
+Cutoff increment increased from 0.0001 to 0.9999
+Cbc0003I Exiting on maximum nodes
+Cbc0005I Partial search - best objective 1e+50 (best possible 0), took 0 iterations and 0 nodes (6.89 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 0 to 0
+Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+
+Result - Stopped on node limit
+
+No feasible solution found
+Lower bound:                    0.000
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             6.89
+Time (Wallclock seconds):       7.15
+
+Total time (CPU seconds):       8.08   (Wallclock seconds):       8.36
+

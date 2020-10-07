@@ -1,0 +1,42 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/pb-fit2d.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 1 NAME          pb-fit2d
+At line 2 ROWS
+At line 10529 COLUMNS
+At line 879305 RHS
+At line 884556 BOUNDS
+At line 1003057 ENDATA
+Problem pb-fit2d has 10525 rows, 118500 columns and 1575578 elements
+Coin0008I pb-fit2d read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is -22372.5 - 7.13 seconds
+Cutoff increment increased from 0.0001 to 0.9999
+Cbc0031I 3691 added rows had average density of 2
+Cbc0013I At root node, 3691 cuts changed objective from -22372.476 to -21664.159 in 1 passes
+Cbc0014I Cut generator 0 (Knapsack) - 3708 row cuts average 2.0 elements, 0 column cuts (0 active)  in 0.786 seconds - new frequency is 1
+Cbc0003I Exiting on maximum nodes
+Cbc0005I Partial search - best objective 1e+50 (best possible -21664.159), took 4026 iterations and 0 nodes (14.41 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from -22372.5 to -21664.2
+Knapsack was tried 1 times and created 3708 cuts of which 0 were active after adding rounds of cuts (0.786 seconds)
+
+Result - Stopped on node limit
+
+No feasible solution found
+Lower bound:                    -21664.159
+Enumerated nodes:               0
+Total iterations:               4026
+Time (CPU seconds):             14.42
+Time (Wallclock seconds):       14.60
+
+Total time (CPU seconds):       15.66   (Wallclock seconds):       15.89
+

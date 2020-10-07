@@ -1,0 +1,41 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/bab6.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 1 NAME          bab6
+At line 2 ROWS
+At line 29908 COLUMNS
+At line 1387032 RHS
+At line 1387829 BOUNDS
+At line 1502070 ENDATA
+Problem bab6 has 29904 rows, 114240 columns and 1283181 elements
+Coin0008I bab6 read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is -321641 - 39.14 seconds
+Cbc0031I 52 added rows had average density of 14.134615
+Cbc0013I At root node, 52 cuts changed objective from -321641.36 to -320486.51 in 1 passes
+Cbc0014I Cut generator 0 (Knapsack) - 142 row cuts average 17.0 elements, 0 column cuts (0 active)  in 0.187 seconds - new frequency is 1
+Cbc0003I Exiting on maximum nodes
+Cbc0005I Partial search - best objective 1e+50 (best possible -320486.51), took 1585 iterations and 0 nodes (45.72 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from -321641 to -320487
+Knapsack was tried 1 times and created 142 cuts of which 0 were active after adding rounds of cuts (0.187 seconds)
+
+Result - Stopped on node limit
+
+No feasible solution found
+Lower bound:                    -320486.505
+Enumerated nodes:               0
+Total iterations:               1585
+Time (CPU seconds):             45.73
+Time (Wallclock seconds):       45.87
+
+Total time (CPU seconds):       46.88   (Wallclock seconds):       47.04
+

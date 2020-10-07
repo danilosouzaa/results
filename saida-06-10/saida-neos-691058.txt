@@ -1,0 +1,40 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/neos-691058.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 1 NAME          neos-691058
+At line 2 ROWS
+At line 2671 COLUMNS
+At line 33586 RHS
+At line 36254 BOUNDS
+At line 38028 ENDATA
+Problem neos-691058 has 2667 rows, 3006 columns and 30837 elements
+Coin0008I neos-691058 read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is 234 - 1.37 seconds
+Cbc0013I At root node, 0 cuts changed objective from 234 to 234 in 1 passes
+Cbc0014I Cut generator 0 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.022 seconds - new frequency is 1000
+Cbc0003I Exiting on maximum nodes
+Cbc0005I Partial search - best objective 1e+50 (best possible 234), took 0 iterations and 0 nodes (1.45 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 234 to 234
+Knapsack was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.022 seconds)
+
+Result - Stopped on node limit
+
+No feasible solution found
+Lower bound:                    234.000
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             1.45
+Time (Wallclock seconds):       1.46
+
+Total time (CPU seconds):       1.48   (Wallclock seconds):       1.50
+

@@ -1,0 +1,42 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/ci-s4.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 2 NAME          ci-s4
+At line 3 ROWS
+At line 26164 COLUMNS
+At line 155426 RHS
+At line 181442 RANGES
+At line 181443 BOUNDS
+At line 182189 ENDATA
+Problem ci-s4 has 26159 rows, 745 columns and 129124 elements
+Coin0008I ci-s4 read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is 4.96381 - 0.15 seconds
+Cbc0031I 1 added rows had average density of 3
+Cbc0013I At root node, 1 cuts changed objective from 4.9638091 to 4.9638091 in 1 passes
+Cbc0014I Cut generator 0 (Knapsack) - 1 row cuts average 3.0 elements, 0 column cuts (0 active)  in 0.005 seconds - new frequency is 1
+Cbc0003I Exiting on maximum nodes
+Cbc0005I Partial search - best objective 1e+50 (best possible 4.9638091), took 1 iterations and 0 nodes (0.45 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 4.96381 to 4.96381
+Knapsack was tried 1 times and created 1 cuts of which 0 were active after adding rounds of cuts (0.005 seconds)
+
+Result - Stopped on node limit
+
+No feasible solution found
+Lower bound:                    4.964
+Enumerated nodes:               0
+Total iterations:               1
+Time (CPU seconds):             0.45
+Time (Wallclock seconds):       0.48
+
+Total time (CPU seconds):       0.59   (Wallclock seconds):       0.62
+

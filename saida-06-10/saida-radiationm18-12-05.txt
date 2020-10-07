@@ -1,0 +1,43 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/radiationm18-12-05.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 1 NAME radiationm18-12-05
+At line 2 ROWS
+At line 40939 COLUMNS
+At line 159122 RHS
+At line 170440 BOUNDS
+At line 218408 ENDATA
+Problem radiationm18-12-05 has 40935 rows, 40623 columns and 96149 elements
+Coin0008I radiationm18-12-05 read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is 17554.5 - 1.10 seconds
+Cbc0045I 1 integer variables out of 25935 objects (22841 integer) have cost of 1 - high priority
+Cbc0045I branch on satisfied N create fake objective N random cost N
+Cbc0031I 42 added rows had average density of 3.9285714
+Cbc0013I At root node, 42 cuts changed objective from 17560.854 to 17560.88 in 1 passes
+Cbc0014I Cut generator 0 (Knapsack) - 83 row cuts average 3.5 elements, 0 column cuts (0 active)  in 0.092 seconds - new frequency is 1
+Cbc0003I Exiting on maximum nodes
+Cbc0005I Partial search - best objective 1e+50 (best possible 17560.88), took 348 iterations and 0 nodes (4.45 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 17560.9 to 17560.9
+Knapsack was tried 1 times and created 83 cuts of which 0 were active after adding rounds of cuts (0.092 seconds)
+
+Result - Stopped on node limit
+
+No feasible solution found
+Lower bound:                    17560.880
+Enumerated nodes:               0
+Total iterations:               348
+Time (CPU seconds):             4.45
+Time (Wallclock seconds):       4.50
+
+Total time (CPU seconds):       4.64   (Wallclock seconds):       4.71
+

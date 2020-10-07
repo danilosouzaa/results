@@ -1,0 +1,43 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/pigeon-16.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 1 NAME pigeon-16
+At line 4 ROWS
+At line 2359 COLUMNS
+At line 23674 RHS
+At line 23916 BOUNDS
+At line 24845 ENDATA
+Problem pigeon-16 has 2353 rows, 1072 columns and 21104 elements
+Coin0008I pigeon-16 read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is -16000 - 0.04 seconds
+Cbc0045I 16 integer variables out of 928 objects (880 integer) have cost of -1000 - high priority
+Cbc0045I branch on satisfied N create fake objective Y random cost Y
+Cbc0031I 16 added rows had average density of 3
+Cbc0013I At root node, 16 cuts changed objective from -16000 to -16000 in 1 passes
+Cbc0014I Cut generator 0 (Knapsack) - 22 row cuts average 3.0 elements, 0 column cuts (0 active)  in 0.020 seconds - new frequency is 1
+Cbc0003I Exiting on maximum nodes
+Cbc0005I Partial search - best objective 1e+50 (best possible -16000), took 23 iterations and 0 nodes (0.11 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from -16000 to -16000
+Knapsack was tried 1 times and created 22 cuts of which 0 were active after adding rounds of cuts (0.020 seconds)
+
+Result - Stopped on node limit
+
+No feasible solution found
+Lower bound:                    -16000.000
+Enumerated nodes:               0
+Total iterations:               23
+Time (CPU seconds):             0.11
+Time (Wallclock seconds):       0.11
+
+Total time (CPU seconds):       0.12   (Wallclock seconds):       0.13
+

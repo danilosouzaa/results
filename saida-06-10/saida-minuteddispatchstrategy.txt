@@ -1,0 +1,42 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/minuteddispatchstrategy.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve
+At line 2 NAME          minutedispatchstrategy.sav
+At line 3 ROWS
+At line 80199 COLUMNS
+At line 321128 RHS
+At line 339825 RANGES
+At line 339826 BOUNDS
+At line 362876 ENDATA
+Problem minutedispatchstrategy.sav has 80194 rows, 41761 columns and 239480 elements
+Coin0008I minutedispatchstrategy.sav read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is 1897.14 - 53.43 seconds
+Cbc0031I 1440 added rows had average density of 4.9902778
+Cbc0013I At root node, 1440 cuts changed objective from 1897.1405 to 1899.9699 in 1 passes
+Cbc0014I Cut generator 0 (Knapsack) - 1454 row cuts average 5.0 elements, 0 column cuts (0 active)  in 0.430 seconds - new frequency is 1
+Cbc0003I Exiting on maximum nodes
+Cbc0005I Partial search - best objective 1e+50 (best possible 1899.9699), took 2147 iterations and 0 nodes (55.70 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 1897.14 to 1899.97
+Knapsack was tried 1 times and created 1454 cuts of which 0 were active after adding rounds of cuts (0.430 seconds)
+
+Result - Stopped on node limit
+
+No feasible solution found
+Lower bound:                    1899.970
+Enumerated nodes:               0
+Total iterations:               2147
+Time (CPU seconds):             55.70
+Time (Wallclock seconds):       55.81
+
+Total time (CPU seconds):       56.02   (Wallclock seconds):       56.15
+
