@@ -1,0 +1,39 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/sct5.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 1 NAME           sct5
+At line 2 ROWS
+At line 13308 COLUMNS
+At line 94385 RHS
+At line 95231 BOUNDS
+At line 132497 ENDATA
+Problem sct5 has 13304 rows, 37265 columns and 147037 elements
+Coin0008I sct5 read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is -228.177 - 5.13 seconds
+Cbc0031I 12 added rows had average density of 2.25
+Cbc0013I At root node, 44 cuts changed objective from -228.17655 to -138.19141 in 1 passes
+Cbc0014I Cut generator 0 (Knapsack) - 44 row cuts average 4.8 elements, 0 column cuts (0 active)  in 1.375 seconds - new frequency is 1
+Cbc0001I Search completed - best objective 1e+50, took 5787 iterations and 0 nodes (17.71 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from -228.177 to -138.191
+Knapsack was tried 1 times and created 44 cuts of which 0 were active after adding rounds of cuts (1.375 seconds)
+
+Result - Problem proven infeasible
+
+No feasible solution found
+Enumerated nodes:               0
+Total iterations:               5787
+Time (CPU seconds):             17.71
+Time (Wallclock seconds):       17.83
+
+Total time (CPU seconds):       17.88   (Wallclock seconds):       18.00
+

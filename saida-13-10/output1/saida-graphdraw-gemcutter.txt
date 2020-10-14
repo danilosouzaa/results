@@ -1,0 +1,40 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/graphdraw-gemcutter.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 8 NAME graphdraw-gemcutter
+At line 9 ROWS
+At line 485 COLUMNS
+At line 1252 RHS
+At line 1486 BOUNDS
+At line 1669 ENDATA
+Problem graphdraw-gemcutter has 474 rows, 166 columns and 1420 elements
+Coin0008I graphdraw-gemcutter read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is 4310 - 0.01 seconds
+Cbc0013I At root node, 0 cuts changed objective from 4310 to 4310 in 1 passes
+Cbc0014I Cut generator 0 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.099 seconds - new frequency is 1000
+Cbc0003I Exiting on maximum nodes
+Cbc0005I Partial search - best objective 1e+50 (best possible 4310), took 0 iterations and 0 nodes (0.12 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 4310 to 4310
+Knapsack was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.099 seconds)
+
+Result - Stopped on node limit
+
+No feasible solution found
+Lower bound:                    4310.000
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             0.12
+Time (Wallclock seconds):       0.12
+
+Total time (CPU seconds):       0.12   (Wallclock seconds):       0.12
+

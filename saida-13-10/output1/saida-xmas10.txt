@@ -1,0 +1,41 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/xmas10.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 1 NAME xmas10
+At line 3 ROWS
+At line 9085 COLUMNS
+At line 53623 RHS
+At line 57164 BOUNDS
+At line 65265 ENDATA
+Problem xmas10 has 9080 rows, 8100 columns and 43635 elements
+Coin0008I xmas10 read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is -548.905 - 0.69 seconds
+Cbc0031I 125 added rows had average density of 4
+Cbc0013I At root node, 125 cuts changed objective from -548.90468 to -543.96758 in 1 passes
+Cbc0014I Cut generator 0 (Knapsack) - 194 row cuts average 4.0 elements, 0 column cuts (0 active)  in 22.112 seconds - new frequency is 1
+Cbc0003I Exiting on maximum nodes
+Cbc0005I Partial search - best objective 1e+50 (best possible -543.96758), took 1221 iterations and 0 nodes (23.94 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from -548.905 to -543.968
+Knapsack was tried 1 times and created 194 cuts of which 0 were active after adding rounds of cuts (22.112 seconds)
+
+Result - Stopped on node limit
+
+No feasible solution found
+Lower bound:                    -543.968
+Enumerated nodes:               0
+Total iterations:               1221
+Time (CPU seconds):             23.94
+Time (Wallclock seconds):       32.25
+
+Total time (CPU seconds):       24.00   (Wallclock seconds):       32.31
+

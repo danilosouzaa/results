@@ -1,0 +1,65 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/neos-2075418-temuka.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 1 NAME          neos-2075418-temuka
+At line 2 ROWS
+At line 349606 COLUMNS
+At line 8051598 RHS
+At line 8129398 BOUNDS
+At line 8251703 ENDATA
+Problem neos-2075418-temuka has 349602 rows, 122304 columns and 7610261 elements
+Coin0008I neos-2075418-temuka read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is 0 - 376.11 seconds
+Cutoff increment increased from 0.0001 to 250
+
+
+ERROR while running Cbc. Signal SIGSEGV caught. Getting stack trace.
+/home/danilo/CBCDanilo/lib/libCbcSolver.so.0(_Z15CbcCrashHandleri+0x283) [0x7f0e46ce0074]
+/lib/x86_64-linux-gnu/libc.so.6(+0x3efd0) [0x7f0e45b9cfd0]
+/home/danilo/CBCDanilo/lib/libCgl.so.0(_ZN16CglKnapsackCover15createCutsCoverEP15constraintsRealS1_S1_iii+0x6b8) [0x7f0e4583319e]
+/home/danilo/CBCDanilo/lib/libCgl.so.0(_ZN16CglKnapsackCover11runCCwithSAEP15constraintsRealiiffiiddddPdidid+0xaa7) [0x7f0e45837969]
+/home/danilo/CBCDanilo/lib/libCgl.so.0(_ZN16CglKnapsackCover10LiftWithSAEP15constraintsReal+0x294) [0x7f0e4583878c]
+/home/danilo/CBCDanilo/lib/libCgl.so.0(_ZN16CglKnapsackCover12generateCutsERK18OsiSolverInterfaceR7OsiCuts11CglTreeInfo+0x1d82) [0x7f0e4583a5aa]
+/home/danilo/CBCDanilo/lib/libCbc.so.0(_ZN15CbcCutGenerator12generateCutsER7OsiCutsiP18OsiSolverInterfaceP7CbcNode+0x6ca) [0x7f0e4684a238]
+/home/danilo/CBCDanilo/lib/libCbc.so.0(_ZN8CbcModel10serialCutsER7OsiCutsP7CbcNodeS1_i+0x43c) [0x7f0e468e22aa]
+/home/danilo/CBCDanilo/lib/libCbc.so.0(_ZN8CbcModel13solveWithCutsER7OsiCutsiP7CbcNode+0x2441) [0x7f0e468dd117]
+/home/danilo/CBCDanilo/lib/libCbc.so.0(_ZN8CbcModel14branchAndBoundEi+0x7647) [0x7f0e468c65a5]
+/home/danilo/CBCDanilo/lib/libCbcSolver.so.0(_Z8CbcMain1iPPKcR8CbcModelPFiPS2_iER19CbcSolverUsefulData+0x1ea59) [0x7f0e46cbb8c3]
+./cbc(+0x10a6) [0x55f6aff570a6]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f0e45b7fb97]
+./cbc(+0xe1a) [0x55f6aff56e1a]
+
+
+
+
+ERROR while running Cbc. Signal SIGABRT caught. Getting stack trace.
+/home/danilo/CBCDanilo/lib/libCbcSolver.so.0(_Z15CbcCrashHandleri+0x283) [0x7f0e46ce0074]
+/lib/x86_64-linux-gnu/libc.so.6(+0x3efd0) [0x7f0e45b9cfd0]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0xc7) [0x7f0e45b9cf47]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x141) [0x7f0e45b9e8b1]
+/home/danilo/CBCDanilo/lib/libCbcSolver.so.0(_Z15CbcCrashHandleri+0x379) [0x7f0e46ce016a]
+/lib/x86_64-linux-gnu/libc.so.6(+0x3efd0) [0x7f0e45b9cfd0]
+/home/danilo/CBCDanilo/lib/libCgl.so.0(_ZN16CglKnapsackCover15createCutsCoverEP15constraintsRealS1_S1_iii+0x6b8) [0x7f0e4583319e]
+/home/danilo/CBCDanilo/lib/libCgl.so.0(_ZN16CglKnapsackCover11runCCwithSAEP15constraintsRealiiffiiddddPdidid+0xaa7) [0x7f0e45837969]
+/home/danilo/CBCDanilo/lib/libCgl.so.0(_ZN16CglKnapsackCover10LiftWithSAEP15constraintsReal+0x294) [0x7f0e4583878c]
+/home/danilo/CBCDanilo/lib/libCgl.so.0(_ZN16CglKnapsackCover12generateCutsERK18OsiSolverInterfaceR7OsiCuts11CglTreeInfo+0x1d82) [0x7f0e4583a5aa]
+/home/danilo/CBCDanilo/lib/libCbc.so.0(_ZN15CbcCutGenerator12generateCutsER7OsiCutsiP18OsiSolverInterfaceP7CbcNode+0x6ca) [0x7f0e4684a238]
+/home/danilo/CBCDanilo/lib/libCbc.so.0(_ZN8CbcModel10serialCutsER7OsiCutsP7CbcNodeS1_i+0x43c) [0x7f0e468e22aa]
+/home/danilo/CBCDanilo/lib/libCbc.so.0(_ZN8CbcModel13solveWithCutsER7OsiCutsiP7CbcNode+0x2441) [0x7f0e468dd117]
+/home/danilo/CBCDanilo/lib/libCbc.so.0(_ZN8CbcModel14branchAndBoundEi+0x7647) [0x7f0e468c65a5]
+/home/danilo/CBCDanilo/lib/libCbcSolver.so.0(_Z8CbcMain1iPPKcR8CbcModelPFiPS2_iER19CbcSolverUsefulData+0x1ea59) [0x7f0e46cbb8c3]
+./cbc(+0x10a6) [0x55f6aff570a6]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f0e45b7fb97]
+./cbc(+0xe1a) [0x55f6aff56e1a]
+
+
+timeout: o comando monitorado despejou núcleo

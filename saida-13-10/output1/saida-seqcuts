@@ -1,0 +1,23 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/seqcuts Off knapsack On heur off preprocess off sec 1200 solve3short4288excess384.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve Off knapsack On heur off preprocess off sec 1200 solve3short4288excess384.txt (default strategy 1)
+Unable to open file /home/danilo/CBCDanilo/bin/input/cbc-test-set/seqcuts
+No match for Off - ? for list of commands
+Option for knapsackCuts changed from ifmove to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+No match for solve3short4288excess384.mps.gz - ? for list of commands
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+seconds was changed from 1200 to 1200
+** Current model not valid
+No match for Off - ? for list of commands
+seconds was changed from 1200 to 1200
+No match for solve3short4288excess384.txt - ? for list of commands
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+

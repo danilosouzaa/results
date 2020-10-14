@@ -1,0 +1,42 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/gus-sch.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 2 NAME          gus-sch
+At line 3 ROWS
+At line 5989 COLUMNS
+At line 40086 RHS
+At line 40389 RANGES
+At line 40400 BOUNDS
+At line 45873 ENDATA
+Problem gus-sch has 5984 rows, 5475 columns and 33135 elements
+Coin0008I gus-sch read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is -1205.73 - 0.08 seconds
+Cbc0031I 10 added rows had average density of 2.1
+Cbc0013I At root node, 10 cuts changed objective from -1200.5833 to -1198.3333 in 1 passes
+Cbc0014I Cut generator 0 (Knapsack) - 10 row cuts average 2.1 elements, 0 column cuts (0 active)  in 0.134 seconds - new frequency is 1
+Cbc0003I Exiting on maximum nodes
+Cbc0005I Partial search - best objective 1e+50 (best possible -1198.3333), took 123 iterations and 0 nodes (0.31 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from -1200.58 to -1198.33
+Knapsack was tried 1 times and created 10 cuts of which 0 were active after adding rounds of cuts (0.134 seconds)
+
+Result - Stopped on node limit
+
+No feasible solution found
+Lower bound:                    -1198.333
+Enumerated nodes:               0
+Total iterations:               123
+Time (CPU seconds):             0.31
+Time (Wallclock seconds):       0.32
+
+Total time (CPU seconds):       0.35   (Wallclock seconds):       0.36
+

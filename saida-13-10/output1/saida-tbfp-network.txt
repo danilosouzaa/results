@@ -1,0 +1,40 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/tbfp-network.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 1 NAME tbfp-network
+At line 2 ROWS
+At line 2440 COLUMNS
+At line 145533 RHS
+At line 145566 BOUNDS
+At line 218314 ENDATA
+Problem tbfp-network has 2436 rows, 72747 columns and 215837 elements
+Coin0008I tbfp-network read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is 23.2615 - 5.49 seconds
+Cbc0013I At root node, 0 cuts changed objective from 23.261535 to 23.261535 in 1 passes
+Cbc0014I Cut generator 0 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.515 seconds - new frequency is 1000
+Cbc0003I Exiting on maximum nodes
+Cbc0005I Partial search - best objective 1e+50 (best possible 23.261535), took 0 iterations and 0 nodes (6.36 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 23.2615 to 23.2615
+Knapsack was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.515 seconds)
+
+Result - Stopped on node limit
+
+No feasible solution found
+Lower bound:                    23.262
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             6.36
+Time (Wallclock seconds):       6.40
+
+Total time (CPU seconds):       6.67   (Wallclock seconds):       6.72
+

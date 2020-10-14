@@ -1,0 +1,43 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/rococoC11-010100.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 1 NAME          rococoC11-010100
+At line 2 ROWS
+At line 4014 COLUMNS
+At line 50973 RHS
+At line 51353 BOUNDS
+At line 63675 ENDATA
+Problem rococoC11-010100 has 4010 rows, 12321 columns and 46955 elements
+Coin0008I rococoC11-010100 read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is 8773.21 - 0.29 seconds
+Cutoff increment increased from 0.0001 to 0.9999
+Cbc0045I 1 integer variables out of 12321 objects (10214 integer) have cost of 1 - high priority
+Cbc0045I branch on satisfied N create fake objective N random cost N
+Cbc0013I At root node, 0 cuts changed objective from 8773.2065 to 8773.2065 in 1 passes
+Cbc0014I Cut generator 0 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.272 seconds - new frequency is 1000
+Cbc0003I Exiting on maximum nodes
+Cbc0005I Partial search - best objective 1e+50 (best possible 8773.2065), took 0 iterations and 0 nodes (0.66 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 8773.21 to 8773.21
+Knapsack was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.272 seconds)
+
+Result - Stopped on node limit
+
+No feasible solution found
+Lower bound:                    8773.207
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             0.66
+Time (Wallclock seconds):       0.67
+
+Total time (CPU seconds):       0.73   (Wallclock seconds):       0.74
+

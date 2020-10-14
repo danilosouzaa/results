@@ -1,0 +1,43 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/compact_abz5.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 2 NAME          compact_abz5.lp
+At line 3 ROWS
+At line 1905 COLUMNS
+At line 7609 RHS
+At line 9510 BOUNDS
+At line 10612 ENDATA
+Problem compact_abz5.lp has 1900 rows, 1101 columns and 5600 elements
+Coin0008I compact_abz5.lp read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is 859 - 0.02 seconds
+Cutoff increment increased from 0.0001 to 0.9999
+Cbc0045I 1 integer variables out of 1101 objects (1001 integer) have cost of 1 - high priority
+Cbc0045I branch on satisfied Y create fake objective Y random cost Y
+Cbc0013I At root node, 0 cuts changed objective from 859 to 859 in 1 passes
+Cbc0014I Cut generator 0 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is 1000
+Cbc0003I Exiting on maximum nodes
+Cbc0005I Partial search - best objective 1e+50 (best possible 859), took 0 iterations and 0 nodes (0.04 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 859 to 859
+Knapsack was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+
+Result - Stopped on node limit
+
+No feasible solution found
+Lower bound:                    859.000
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             0.05
+Time (Wallclock seconds):       0.05
+
+Total time (CPU seconds):       0.06   (Wallclock seconds):       0.06
+

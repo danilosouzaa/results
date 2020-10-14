@@ -1,0 +1,41 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/comp12_3idx.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 1 NAME (null)
+At line 2 ROWS
+At line 69728 COLUMNS
+At line 381162 RHS
+At line 390396 BOUNDS
+At line 443556 ENDATA
+Problem (null) has 69724 rows, 53166 columns and 311426 elements
+Coin0008I (null) read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is 3 - 105.61 seconds
+Cbc0031I 29 added rows had average density of 18.448276
+Cbc0013I At root node, 29 cuts changed objective from 3 to 3 in 1 passes
+Cbc0014I Cut generator 0 (Knapsack) - 51 row cuts average 19.1 elements, 0 column cuts (0 active)  in 41.316 seconds - new frequency is 1
+Cbc0003I Exiting on maximum nodes
+Cbc0005I Partial search - best objective 1e+50 (best possible 3), took 4108 iterations and 0 nodes (301.84 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 3 to 3
+Knapsack was tried 1 times and created 51 cuts of which 0 were active after adding rounds of cuts (41.316 seconds)
+
+Result - Stopped on node limit
+
+No feasible solution found
+Lower bound:                    3.000
+Enumerated nodes:               0
+Total iterations:               4108
+Time (CPU seconds):             301.84
+Time (Wallclock seconds):       317.33
+
+Total time (CPU seconds):       302.18   (Wallclock seconds):       317.71
+

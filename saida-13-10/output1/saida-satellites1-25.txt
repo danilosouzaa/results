@@ -1,0 +1,41 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/satellites1-25.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 1 NAME           satellites1-25
+At line 2 ROWS
+At line 6000 COLUMNS
+At line 65382 RHS
+At line 67029 BOUNDS
+At line 76022 ENDATA
+Problem satellites1-25 has 5996 rows, 9013 columns and 59023 elements
+Coin0008I satellites1-25 read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is -20 - 0.68 seconds
+Cbc0031I 3 added rows had average density of 4.6666667
+Cbc0013I At root node, 3 cuts changed objective from -20 to -20 in 1 passes
+Cbc0014I Cut generator 0 (Knapsack) - 11 row cuts average 5.2 elements, 0 column cuts (0 active)  in 0.592 seconds - new frequency is 1
+Cbc0003I Exiting on maximum nodes
+Cbc0005I Partial search - best objective 1e+50 (best possible -20), took 249 iterations and 0 nodes (1.58 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from -20 to -20
+Knapsack was tried 1 times and created 11 cuts of which 0 were active after adding rounds of cuts (0.592 seconds)
+
+Result - Stopped on node limit
+
+No feasible solution found
+Lower bound:                    -20.000
+Enumerated nodes:               0
+Total iterations:               249
+Time (CPU seconds):             1.58
+Time (Wallclock seconds):       1.63
+
+Total time (CPU seconds):       1.62   (Wallclock seconds):       1.68
+

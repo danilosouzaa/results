@@ -1,0 +1,72 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/neos-3402294-bobin.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 1 NAME          neos-3402294-bobin
+At line 2 ROWS
+At line 591080 COLUMNS
+At line 2625995 RHS
+At line 3193048 BOUNDS
+At line 3195665 ENDATA
+Problem neos-3402294-bobin has 591076 rows, 2904 columns and 2034888 elements
+Coin0008I neos-3402294-bobin read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is 0 - 35.09 seconds
+
+
+ERROR while running Cbc. Signal SIGSEGV caught. Getting stack trace.
+/home/danilo/CBCDanilo/lib/libCbcSolver.so.0(_Z15CbcCrashHandleri+0x283) [0x7f299578c074]
+/lib/x86_64-linux-gnu/libc.so.6(+0x3efd0) [0x7f2994648fd0]
+/lib/x86_64-linux-gnu/libc.so.6(cfree+0x3d) [0x7f29946a19fd]
+/home/danilo/CBCDanilo/lib/libCbcSolver.so.0(_ZSt8_DestroyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEvPT_+0x18) [0x7f29956d6ea9]
+/home/danilo/CBCDanilo/lib/libCbcSolver.so.0(_ZNSt12_Destroy_auxILb0EE9__destroyIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEvT_S9_+0x2e) [0x7f29956d526b]
+/home/danilo/CBCDanilo/lib/libCbcSolver.so.0(_ZSt8_DestroyIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEvT_S7_+0x23) [0x7f29956d2432]
+/home/danilo/CBCDanilo/lib/libCbcSolver.so.0(_ZSt8_DestroyIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_EvT_S7_RSaIT0_E+0x27) [0x7f29956cf5a1]
+/home/danilo/CBCDanilo/lib/libCbcSolver.so.0(_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED1Ev+0x35) [0x7f29956cdb67]
+/home/danilo/CBCDanilo/lib/libOsi.so.0(_ZN18OsiSolverInterfaceD1Ev+0x1b8) [0x7f2993937b62]
+/home/danilo/CBCDanilo/lib/libOsiClp.so.0(_ZN21OsiClpSolverInterfaceD1Ev+0x3c3) [0x7f2995021055]
+/home/danilo/CBCDanilo/lib/libOsiClp.so.0(_ZN21OsiClpSolverInterfaceD0Ev+0x18) [0x7f2995021084]
+/home/danilo/CBCDanilo/lib/libCbc.so.0(_ZN8CbcModel16gutsOfDestructorEv+0x2c) [0x7f2995382b12]
+/home/danilo/CBCDanilo/lib/libCbc.so.0(_ZN8CbcModelD1Ev+0xc7) [0x7f29953829ff]
+/home/danilo/CBCDanilo/lib/libCbcSolver.so.0(_Z7analyzeP21OsiClpSolverInterfaceRiRdbP18CoinMessageHandlerb+0x1bf3) [0x7f29957a1676]
+/home/danilo/CBCDanilo/lib/libCbcSolver.so.0(_Z8CbcMain1iPPKcR8CbcModelPFiPS2_iER19CbcSolverUsefulData+0x167fc) [0x7f299575f666]
+./cbc(+0x10a6) [0x55dbbba470a6]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f299462bb97]
+./cbc(+0xe1a) [0x55dbbba46e1a]
+
+
+
+
+ERROR while running Cbc. Signal SIGABRT caught. Getting stack trace.
+/home/danilo/CBCDanilo/lib/libCbcSolver.so.0(_Z15CbcCrashHandleri+0x283) [0x7f299578c074]
+/lib/x86_64-linux-gnu/libc.so.6(+0x3efd0) [0x7f2994648fd0]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0xc7) [0x7f2994648f47]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x141) [0x7f299464a8b1]
+/home/danilo/CBCDanilo/lib/libCbcSolver.so.0(_Z15CbcCrashHandleri+0x379) [0x7f299578c16a]
+/lib/x86_64-linux-gnu/libc.so.6(+0x3efd0) [0x7f2994648fd0]
+/lib/x86_64-linux-gnu/libc.so.6(cfree+0x3d) [0x7f29946a19fd]
+/home/danilo/CBCDanilo/lib/libCbcSolver.so.0(_ZSt8_DestroyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEvPT_+0x18) [0x7f29956d6ea9]
+/home/danilo/CBCDanilo/lib/libCbcSolver.so.0(_ZNSt12_Destroy_auxILb0EE9__destroyIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEvT_S9_+0x2e) [0x7f29956d526b]
+/home/danilo/CBCDanilo/lib/libCbcSolver.so.0(_ZSt8_DestroyIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEvT_S7_+0x23) [0x7f29956d2432]
+/home/danilo/CBCDanilo/lib/libCbcSolver.so.0(_ZSt8_DestroyIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_EvT_S7_RSaIT0_E+0x27) [0x7f29956cf5a1]
+/home/danilo/CBCDanilo/lib/libCbcSolver.so.0(_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED1Ev+0x35) [0x7f29956cdb67]
+/home/danilo/CBCDanilo/lib/libOsi.so.0(_ZN18OsiSolverInterfaceD1Ev+0x1b8) [0x7f2993937b62]
+/home/danilo/CBCDanilo/lib/libOsiClp.so.0(_ZN21OsiClpSolverInterfaceD1Ev+0x3c3) [0x7f2995021055]
+/home/danilo/CBCDanilo/lib/libOsiClp.so.0(_ZN21OsiClpSolverInterfaceD0Ev+0x18) [0x7f2995021084]
+/home/danilo/CBCDanilo/lib/libCbc.so.0(_ZN8CbcModel16gutsOfDestructorEv+0x2c) [0x7f2995382b12]
+/home/danilo/CBCDanilo/lib/libCbc.so.0(_ZN8CbcModelD1Ev+0xc7) [0x7f29953829ff]
+/home/danilo/CBCDanilo/lib/libCbcSolver.so.0(_Z7analyzeP21OsiClpSolverInterfaceRiRdbP18CoinMessageHandlerb+0x1bf3) [0x7f29957a1676]
+/home/danilo/CBCDanilo/lib/libCbcSolver.so.0(_Z8CbcMain1iPPKcR8CbcModelPFiPS2_iER19CbcSolverUsefulData+0x167fc) [0x7f299575f666]
+./cbc(+0x10a6) [0x55dbbba470a6]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f299462bb97]
+./cbc(+0xe1a) [0x55dbbba46e1a]
+
+
+timeout: o comando monitorado despejou núcleo

@@ -1,0 +1,40 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/sing11.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 1 NAME          sing11
+At line 2 ROWS
+At line 105862 COLUMNS
+At line 668355 RHS
+At line 668766 BOUNDS
+At line 834146 ENDATA
+Problem sing11 has 105858 rows, 175352 columns and 479075 elements
+Coin0008I sing11 read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is 1.86402e+07 - 140.97 seconds
+Cbc0013I At root node, 0 cuts changed objective from 18640171 to 18640171 in 1 passes
+Cbc0014I Cut generator 0 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.586 seconds - new frequency is 1000
+Cbc0003I Exiting on maximum nodes
+Cbc0005I Partial search - best objective 1e+50 (best possible 18640171), took 0 iterations and 0 nodes (143.34 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 1.86402e+07 to 1.86402e+07
+Knapsack was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.586 seconds)
+
+Result - Stopped on node limit
+
+No feasible solution found
+Lower bound:                    18640171.225
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             143.34
+Time (Wallclock seconds):       143.52
+
+Total time (CPU seconds):       143.94   (Wallclock seconds):       144.15
+

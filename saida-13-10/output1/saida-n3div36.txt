@@ -1,0 +1,42 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/n3div36.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 1 NAME          n3div36
+At line 2 ROWS
+At line 4488 COLUMNS
+At line 367351 RHS
+At line 371836 BOUNDS
+At line 393957 ENDATA
+Problem n3div36 has 4484 rows, 22120 columns and 340740 elements
+Coin0008I n3div36 read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is 114333 - 0.43 seconds
+Cutoff increment increased from 0.0001 to 200
+Cbc0031I 2 added rows had average density of 6.5
+Cbc0013I At root node, 2 cuts changed objective from 114333.37 to 114704.33 in 1 passes
+Cbc0014I Cut generator 0 (Knapsack) - 2 row cuts average 6.5 elements, 0 column cuts (0 active)  in 0.209 seconds - new frequency is 1
+Cbc0003I Exiting on maximum nodes
+Cbc0005I Partial search - best objective 1e+50 (best possible 114704.33), took 11 iterations and 0 nodes (1.07 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 114333 to 114704
+Knapsack was tried 1 times and created 2 cuts of which 0 were active after adding rounds of cuts (0.209 seconds)
+
+Result - Stopped on node limit
+
+No feasible solution found
+Lower bound:                    114704.325
+Enumerated nodes:               0
+Total iterations:               11
+Time (CPU seconds):             1.07
+Time (Wallclock seconds):       1.10
+
+Total time (CPU seconds):       1.60   (Wallclock seconds):       1.64
+

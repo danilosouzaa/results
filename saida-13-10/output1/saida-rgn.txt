@@ -1,0 +1,39 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/rgn.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 15 NAME          RGN
+At line 16 ROWS
+At line 42 COLUMNS
+At line 365 RHS
+At line 378 BOUNDS
+At line 559 ENDATA
+Problem RGN has 24 rows, 180 columns and 460 elements
+Coin0008I RGN read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is 48.8 - 0.00 seconds
+Cbc0031I 4 added rows had average density of 2.25
+Cbc0013I At root node, 13 cuts changed objective from 48.799999 to 53.999999 in 1 passes
+Cbc0014I Cut generator 0 (Knapsack) - 13 row cuts average 2.6 elements, 0 column cuts (0 active)  in 0.049 seconds - new frequency is 1
+Cbc0001I Search completed - best objective 1e+50, took 17 iterations and 0 nodes (0.06 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 48.8 to 54
+Knapsack was tried 1 times and created 13 cuts of which 0 were active after adding rounds of cuts (0.049 seconds)
+
+Result - Problem proven infeasible
+
+No feasible solution found
+Enumerated nodes:               0
+Total iterations:               17
+Time (CPU seconds):             0.06
+Time (Wallclock seconds):       0.06
+
+Total time (CPU seconds):       0.06   (Wallclock seconds):       0.06
+

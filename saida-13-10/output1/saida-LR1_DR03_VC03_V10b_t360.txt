@@ -1,0 +1,39 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/LR1_DR03_VC03_V10b_t360.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 1 NAME MIPmodel_Inter_VC2
+At line 2 ROWS
+At line 7204 COLUMNS
+At line 71553 RHS
+At line 74434 BOUNDS
+At line 91481 ENDATA
+Problem MIPmodel_Inter_VC2 has 7200 rows, 18486 columns and 51624 elements
+Coin0008I MIPmodel_Inter_VC2 read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is 174469 - 154.16 seconds
+Cbc0031I 64 added rows had average density of 2.734375
+Cbc0013I At root node, 116 cuts changed objective from 174469.01 to 255183.09 in 1 passes
+Cbc0014I Cut generator 0 (Knapsack) - 116 row cuts average 2.9 elements, 0 column cuts (0 active)  in 9.272 seconds - new frequency is 1
+Cbc0001I Search completed - best objective 1e+50, took 16040 iterations and 0 nodes (192.52 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 174469 to 255183
+Knapsack was tried 1 times and created 116 cuts of which 0 were active after adding rounds of cuts (9.272 seconds)
+
+Result - Problem proven infeasible
+
+No feasible solution found
+Enumerated nodes:               0
+Total iterations:               16040
+Time (CPU seconds):             192.52
+Time (Wallclock seconds):       196.13
+
+Total time (CPU seconds):       192.63   (Wallclock seconds):       196.25
+

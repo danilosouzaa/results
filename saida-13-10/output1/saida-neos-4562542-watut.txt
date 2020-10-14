@@ -1,0 +1,41 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/neos-4562542-watut.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 1 NAME          neos-4562542-watut
+At line 2 ROWS
+At line 73750 COLUMNS
+At line 2154537 RHS
+At line 2155907 BOUNDS
+At line 2290602 ENDATA
+Problem neos-4562542-watut has 73746 rows, 134705 columns and 2015543 elements
+Coin0008I neos-4562542-watut read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is 3743.3 - 188.40 seconds
+Cbc0031I 1 added rows had average density of 926
+Cbc0013I At root node, 1 cuts changed objective from 3743.3043 to 3746.8583 in 1 passes
+Cbc0014I Cut generator 0 (Knapsack) - 3 row cuts average 398.7 elements, 0 column cuts (0 active)  in 11.852 seconds - new frequency is 1
+Cbc0003I Exiting on maximum nodes
+Cbc0005I Partial search - best objective 1e+50 (best possible 3746.8583), took 16436 iterations and 0 nodes (377.98 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 3743.3 to 3746.86
+Knapsack was tried 1 times and created 3 cuts of which 0 were active after adding rounds of cuts (11.852 seconds)
+
+Result - Stopped on node limit
+
+No feasible solution found
+Lower bound:                    3746.858
+Enumerated nodes:               0
+Total iterations:               16436
+Time (CPU seconds):             377.99
+Time (Wallclock seconds):       379.99
+
+Total time (CPU seconds):       379.24   (Wallclock seconds):       381.28
+

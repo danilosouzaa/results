@@ -1,0 +1,66 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/gfd-schedulen180f7d50m30k18.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 1 NAME gfd-schedulen180f7d50m30k18
+At line 2 ROWS
+At line 457989 COLUMNS
+At line 1694681 RHS
+At line 1975830 BOUNDS
+At line 2205324 ENDATA
+Problem gfd-schedulen180f7d50m30k18 has 457985 rows, 227535 columns and 1233372 elements
+Coin0008I gfd-schedulen180f7d50m30k18 read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is 1 - 92.32 seconds
+Cbc0045I No integer variables out of 194433 objects (147662 integer) have costs
+Cbc0045I branch on satisfied N create fake objective Y random cost Y
+
+
+ERROR while running Cbc. Signal SIGSEGV caught. Getting stack trace.
+/home/danilo/CBCDanilo/lib/libCbcSolver.so.0(_Z15CbcCrashHandleri+0x283) [0x7fc5289a1074]
+/lib/x86_64-linux-gnu/libc.so.6(+0x3efd0) [0x7fc52785dfd0]
+/home/danilo/CBCDanilo/lib/libCgl.so.0(_ZN16CglKnapsackCover15createCutsCoverEP15constraintsRealS1_S1_iii+0x6b8) [0x7fc5274f419e]
+/home/danilo/CBCDanilo/lib/libCgl.so.0(_ZN16CglKnapsackCover11runCCwithSAEP15constraintsRealiiffiiddddPdidid+0xaa7) [0x7fc5274f8969]
+/home/danilo/CBCDanilo/lib/libCgl.so.0(_ZN16CglKnapsackCover10LiftWithSAEP15constraintsReal+0x294) [0x7fc5274f978c]
+/home/danilo/CBCDanilo/lib/libCgl.so.0(_ZN16CglKnapsackCover12generateCutsERK18OsiSolverInterfaceR7OsiCuts11CglTreeInfo+0x1d82) [0x7fc5274fb5aa]
+/home/danilo/CBCDanilo/lib/libCbc.so.0(_ZN15CbcCutGenerator12generateCutsER7OsiCutsiP18OsiSolverInterfaceP7CbcNode+0x6ca) [0x7fc52850b238]
+/home/danilo/CBCDanilo/lib/libCbc.so.0(_ZN8CbcModel10serialCutsER7OsiCutsP7CbcNodeS1_i+0x43c) [0x7fc5285a32aa]
+/home/danilo/CBCDanilo/lib/libCbc.so.0(_ZN8CbcModel13solveWithCutsER7OsiCutsiP7CbcNode+0x2441) [0x7fc52859e117]
+/home/danilo/CBCDanilo/lib/libCbc.so.0(_ZN8CbcModel14branchAndBoundEi+0x7647) [0x7fc5285875a5]
+/home/danilo/CBCDanilo/lib/libCbcSolver.so.0(_Z8CbcMain1iPPKcR8CbcModelPFiPS2_iER19CbcSolverUsefulData+0x1ea59) [0x7fc52897c8c3]
+./cbc(+0x10a6) [0x55b0488050a6]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7fc527840b97]
+./cbc(+0xe1a) [0x55b048804e1a]
+
+
+
+
+ERROR while running Cbc. Signal SIGABRT caught. Getting stack trace.
+/home/danilo/CBCDanilo/lib/libCbcSolver.so.0(_Z15CbcCrashHandleri+0x283) [0x7fc5289a1074]
+/lib/x86_64-linux-gnu/libc.so.6(+0x3efd0) [0x7fc52785dfd0]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0xc7) [0x7fc52785df47]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x141) [0x7fc52785f8b1]
+/home/danilo/CBCDanilo/lib/libCbcSolver.so.0(_Z15CbcCrashHandleri+0x379) [0x7fc5289a116a]
+/lib/x86_64-linux-gnu/libc.so.6(+0x3efd0) [0x7fc52785dfd0]
+/home/danilo/CBCDanilo/lib/libCgl.so.0(_ZN16CglKnapsackCover15createCutsCoverEP15constraintsRealS1_S1_iii+0x6b8) [0x7fc5274f419e]
+/home/danilo/CBCDanilo/lib/libCgl.so.0(_ZN16CglKnapsackCover11runCCwithSAEP15constraintsRealiiffiiddddPdidid+0xaa7) [0x7fc5274f8969]
+/home/danilo/CBCDanilo/lib/libCgl.so.0(_ZN16CglKnapsackCover10LiftWithSAEP15constraintsReal+0x294) [0x7fc5274f978c]
+/home/danilo/CBCDanilo/lib/libCgl.so.0(_ZN16CglKnapsackCover12generateCutsERK18OsiSolverInterfaceR7OsiCuts11CglTreeInfo+0x1d82) [0x7fc5274fb5aa]
+/home/danilo/CBCDanilo/lib/libCbc.so.0(_ZN15CbcCutGenerator12generateCutsER7OsiCutsiP18OsiSolverInterfaceP7CbcNode+0x6ca) [0x7fc52850b238]
+/home/danilo/CBCDanilo/lib/libCbc.so.0(_ZN8CbcModel10serialCutsER7OsiCutsP7CbcNodeS1_i+0x43c) [0x7fc5285a32aa]
+/home/danilo/CBCDanilo/lib/libCbc.so.0(_ZN8CbcModel13solveWithCutsER7OsiCutsiP7CbcNode+0x2441) [0x7fc52859e117]
+/home/danilo/CBCDanilo/lib/libCbc.so.0(_ZN8CbcModel14branchAndBoundEi+0x7647) [0x7fc5285875a5]
+/home/danilo/CBCDanilo/lib/libCbcSolver.so.0(_Z8CbcMain1iPPKcR8CbcModelPFiPS2_iER19CbcSolverUsefulData+0x1ea59) [0x7fc52897c8c3]
+./cbc(+0x10a6) [0x55b0488050a6]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7fc527840b97]
+./cbc(+0xe1a) [0x55b048804e1a]
+
+
+timeout: o comando monitorado despejou núcleo

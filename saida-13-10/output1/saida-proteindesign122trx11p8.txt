@@ -1,0 +1,43 @@
+Welcome to the CBC MILP Solver 
+Version: devel 
+Build Date: Oct  1 2020 
+
+command line - ./cbc /home/danilo/CBCDanilo/bin/input/cbc-test-set/proteindesign122trx11p8.mps.gz MaxN 0 passC 1 cuts Off knapsack On heur off preprocess off sec 1200 solve (default strategy 1)
+At line 1 NAME proteindesign122trx11p8
+At line 2 ROWS
+At line 258 COLUMNS
+At line 503689 RHS
+At line 503756 BOUNDS
+At line 631083 ENDATA
+Problem proteindesign122trx11p8 has 254 rows, 127326 columns and 503427 elements
+Coin0008I proteindesign122trx11p8 read with 0 errors
+maxNodes was changed from 2147483647 to 0
+passCuts was changed from 20 to 1
+Option for cutsOnOff changed from on to off
+Option for knapsackCuts changed from off to on
+Option for heuristicsOnOff changed from on to off
+Option for preprocess changed from sos to off
+seconds was changed from 1e+100 to 1200
+Continuous objective value is 1720.46 - 2.59 seconds
+Cutoff increment increased from 0.0001 to 0.9999
+Cbc0045I 1 integer variables out of 127326 objects (127234 integer) have cost of 1 - high priority
+Cbc0045I branch on satisfied N create fake objective N random cost N
+Cbc0013I At root node, 0 cuts changed objective from 1720.4611 to 1720.4611 in 1 passes
+Cbc0014I Cut generator 0 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.578 seconds - new frequency is 1000
+Cbc0003I Exiting on maximum nodes
+Cbc0005I Partial search - best objective 1e+50 (best possible 1720.4611), took 0 iterations and 0 nodes (4.07 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 1720.46 to 1720.46
+Knapsack was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.578 seconds)
+
+Result - Stopped on node limit
+
+No feasible solution found
+Lower bound:                    1720.461
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             4.07
+Time (Wallclock seconds):       4.17
+
+Total time (CPU seconds):       4.63   (Wallclock seconds):       4.74
+
